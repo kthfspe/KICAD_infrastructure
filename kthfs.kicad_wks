@@ -31,7 +31,7 @@
   (line (name segm10:Line) (start 26 12.5) (end 26 2))
   (tbtext %C4 (name text17:Text) (pos 109.0022 29.00719999999998))
   (tbtext %C5 (name text18:Text) (pos 109.0022 32.00719999999998))
-  (bitmap (name bm1:Bitmap) (pos 27.00220000000002 26.00719999999998) (scale 1)
+  (bitmap (name bm1:Bitmap) (pos 27.002 26.5) (scale 0.967741935483871)
   (pngdata
     (data "89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 26 00 00 00 B0 08 02 00 00 00 B4 0C 32 ")
     (data "66 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0F 3C 00 00 0F 3C ")
