@@ -14,7 +14,7 @@
   (pad 2 thru_hole circle (at 2.5 4.2) (size 1.8 1.8) (drill 1.4) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5 4.2) (size 1.8 1.8) (drill 1.4) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 7.5 4.2) (size 1.8 1.8) (drill 1.4) (layers *.Cu *.Mask))
-  (model "/home/jagjordi/Downloads/691382000004 (rev1).stp"
+  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/Wurth-TBL_vert_4.stp
     (offset (xyz 3.75 -4 5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

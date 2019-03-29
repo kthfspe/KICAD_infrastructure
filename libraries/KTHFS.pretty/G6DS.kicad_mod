@@ -13,7 +13,7 @@
   (pad 1 thru_hole circle (at -17.84 0.01) (size 1.5 1.5) (drill 1.1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -5.1 2.54) (size 1.5 1.5) (drill 1.1) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 0 2.54) (size 1.5 1.5) (drill 1.1) (layers *.Cu *.Mask))
-  (model /home/jagjordi/Downloads/G6DS-1A-H-DC12/3D/G6DS-1A-H-DC12.stp
+  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/G6DS.stp
     (offset (xyz -8.75 -1.25 0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

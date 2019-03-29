@@ -13,7 +13,7 @@
   (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2.1 -7.3) (size 2.2 2.2) (drill 1.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.1 -7.3) (size 2.2 2.2) (drill 1.8) (layers *.Cu *.Mask))
-  (model "/home/jagjordi/Downloads/649002127222 (rev1).stp"
+  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/Wurth-MPC4_2.stp
     (offset (xyz 0 0 3.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

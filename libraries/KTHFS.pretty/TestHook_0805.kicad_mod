@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad 1 smd roundrect (at 0 0) (size 2.2 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.15))
-  (model /home/jagjordi/Downloads/s2751-46r.stp
+  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/TestHook_0805.stp
     (offset (xyz 0 0 1.18))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

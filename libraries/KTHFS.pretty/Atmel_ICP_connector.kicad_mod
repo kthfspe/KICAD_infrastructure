@@ -21,7 +21,7 @@
   (pad 3 smd rect (at 5.435 -1.2) (size 0.76 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.165 -5.1) (size 0.76 2.4) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 4.165 -1.2) (size 0.76 2.4) (layers F.Cu F.Paste F.Mask))
-  (model "/home/jagjordi/Downloads/User Library-IDC-1.step"
+  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/Atmel_ICP_connector.stp
     (offset (xyz 0 0.5 0.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
