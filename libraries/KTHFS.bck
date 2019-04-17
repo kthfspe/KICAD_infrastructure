@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DAR72410
+D RELAY REED SPST-NO 3A 24V
+K SPST-NO
+$ENDCMP
+#
+$CMP DBR72410
+D RELAY REED SPST-NC 3A 24V
+K SPST-NO
+$ENDCMP
+#
+$CMP LTC6804-2
+D Battery Pack Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
+$ENDCMP
+#
+$CMP SW_SPST-closed
+D Single Pole Single Throw (SPST) switch
+K switch lever
+$ENDCMP
+#
+$CMP Wurth-FDSM
+D DC-DC Converter MagI3C
+K DC-DC, Step-down, Wurth
+F https://katalog.we-online.de/pm/datasheet/173010578.pdf
+$ENDCMP
+#
+$CMP Wurth-LDHM
+D High Current LED Driver
+K Led Driver
+F https://katalog.we-online.de/pm/datasheet/172946001.pdf
+$ENDCMP
+#
+#End Doc Library
