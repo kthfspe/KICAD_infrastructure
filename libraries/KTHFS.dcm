@@ -40,6 +40,11 @@ $CMP T9AS1D12-24
 D Relay 24 V, 30 A
 $ENDCMP
 #
+$CMP TC4426AEOA713
+D Dual MOSFET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf
+$ENDCMP
+#
 $CMP TS+
 D Positive Tractive System votlage symbol
 $ENDCMP
