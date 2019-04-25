@@ -1,4 +1,4 @@
-(module LTC6804-2 (layer F.Cu) (tedit 5CAB0A54)
+(module LTC6804 (layer F.Cu) (tedit 5CAB0A54)
   (descr "48-Lead Plastic SSOP (5.3mm) - G package")
   (tags "Integrated Circuit")
   (attr smd)
@@ -76,7 +76,7 @@
   (pad 46 smd rect (at 3.55 -4.75 90) (size 0.3 1.8) (layers F.Cu F.Paste))
   (pad 47 smd rect (at 3.55 -5.25 90) (size 0.3 1.8) (layers F.Cu F.Paste))
   (pad 48 smd rect (at 3.55 -5.75 90) (size 0.3 1.8) (layers F.Cu F.Paste))
-  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/LTC6804-2.stp
+  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/LTC6804.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
