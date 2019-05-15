@@ -1,0 +1,89 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12Viso
+D Isolated 5 volt supply symbol
+$ENDCMP
+#
+$CMP +5Viso
+D Isolated 5 volt supply symbol
+$ENDCMP
+#
+$CMP 74LVC2G157DCURG4
+D 2 to 1 multiplexer
+$ENDCMP
+#
+$CMP ATSAMC21J
+D Atmel SAM C21 J
+$ENDCMP
+#
+$CMP DAR72410
+D Reed realay 1kV isolation, SPST-NO, 24 V
+K SPST-NO
+$ENDCMP
+#
+$CMP DBR72410
+D Reed realay 1kV isolation, SPST-NC, 24 V
+K SPST-NO
+$ENDCMP
+#
+$CMP GNDiso
+D Isolated ground symbol
+$ENDCMP
+#
+$CMP LTC6804-1
+D Battery Pack Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
+$ENDCMP
+#
+$CMP LTC6804-2
+D Battery Pack Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
+$ENDCMP
+#
+$CMP SW_SPST-closed
+D Single Pole Single Throw (SPST) closed switch
+K switch lever
+$ENDCMP
+#
+$CMP T9AS1D12-24
+D Relay 24 V, 30 A
+$ENDCMP
+#
+$CMP TC4426AEOA713
+D Dual MOSFET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf
+$ENDCMP
+#
+$CMP TS+
+D Positive Tractive System votlage symbol
+$ENDCMP
+#
+$CMP TS-
+D Negative Tractive System votlage symbol
+$ENDCMP
+#
+$CMP UCC2946
+D Whatchdog supervisor
+$ENDCMP
+#
+$CMP Wurth-FDSM
+D DC-DC Converter MagI3C
+K DC-DC, Step-down, Wurth
+F https://katalog.we-online.de/pm/datasheet/173010578.pdf
+$ENDCMP
+#
+$CMP Wurth-FISM
+D DC-DC Isolated Converter
+$ENDCMP
+#
+$CMP Wurth-LDHM
+D High Current LED Driver
+K Led Driver
+F https://katalog.we-online.de/pm/datasheet/172946001.pdf
+$ENDCMP
+#
+$CMP Wurth-VDRM
+D Variable Step Down Regulator Module
+$ENDCMP
+#
+#End Doc Library
