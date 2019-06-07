@@ -2,7 +2,8 @@
 This repository contains all files needed to edit schematics that contain custom footprints created by KTHFS. Without this files in your system it is still possible to view the files with the cache library.
 
 ## Contents
-- [Setting up KiCAD](setting-up-kicad)
+- [Setting up KiCAD](#setting-up-kicad)
+- [Requesting new symbols or footprints](#requesting-new-symbols-or-footprints)
 
 ## Setting up KiCAD
 To properly set up the libraries the follwing instructions are recommended.
@@ -49,3 +50,5 @@ To properly set up the libraries the follwing instructions are recommended.
 
 17. Open a finished project to verify that libraries where set up correctly. You can do that by opening a schematic and checking if the car image appears on the bottom right corner.
 ![asdgad](https://i.imgur.com/KP7DJ9w.png)
+
+## Requesting new symbols or footprints
