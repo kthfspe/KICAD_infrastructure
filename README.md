@@ -1,7 +1,10 @@
 # KTHFS KiCAD Infrastructure 
 This repository contains all files needed to edit schematics that contain custom footprints created by KTHFS. Without this files in your system it is still possible to view the files with the cache library.
 
-## Seting up KiCAD
+## Contents
+- [Setting up KiCAD](setting-up-kicad)
+
+## Setting up KiCAD
 To properly set up the libraries the follwing instructions are recommended.
 1. Install **KiCAD** from the official [website](http://kicad-pcb.org/download/)
 2. Clone this repository with your favourite method
