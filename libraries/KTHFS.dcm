@@ -82,4 +82,8 @@ K Led Driver
 F https://katalog.we-online.de/pm/datasheet/172946001.pdf
 $ENDCMP
 #
+$CMP Wurth-VDRM
+D Variable Step Down Regulator Module
+$ENDCMP
+#
 #End Doc Library
