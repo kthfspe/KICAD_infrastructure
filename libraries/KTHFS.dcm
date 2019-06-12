@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP +12Viso
-D Isolated 5 volt supply symbol
+D Isolated 12 volt supply symbol
 $ENDCMP
 #
 $CMP +5Viso

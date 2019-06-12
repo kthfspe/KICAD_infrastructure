@@ -1,4 +1,4 @@
-(module Wurth-MM_10 (layer F.Cu) (tedit 5CAA49BE)
+(module Wurth-MM_10 (layer F.Cu) (tedit 5CE95829)
   (fp_text reference REF** (at -5.08 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
