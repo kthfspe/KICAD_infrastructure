@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP +12Viso
-D Isolated 12 volt supply symbol
+D Isolated 5 volt supply symbol
 $ENDCMP
 #
 $CMP +5Viso
@@ -38,12 +38,6 @@ $ENDCMP
 $CMP LTC6804-2
 D Battery Pack Monitor
 F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
-$ENDCMP
-#
-$CMP Q_NMOS_enh
-D N-MOSFET transistor, drain/source/gate
-K transistor NMOS N-MOS N-MOSFET
-F ~
 $ENDCMP
 #
 $CMP SW_SPST-closed
