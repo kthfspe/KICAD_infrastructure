@@ -1,4 +1,4 @@
-(module Wurth-MM_6 (layer F.Cu) (tedit 5CE95819)
+(module Wurth-MM_female_6 (layer F.Cu) (tedit 5CE95819)
   (fp_text reference REF** (at -5.08 -2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -18,7 +18,7 @@
   (pad 5 thru_hole circle (at -5.08 0) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at -6.35 2.54) (size 1.524 1.524) (drill 0.8) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 1.4 1.8) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
-  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/Wurth-MM_6.stp
+  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/Wurth-MM_male_6.stp
     (offset (xyz -3.225 -1.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
