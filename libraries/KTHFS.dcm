@@ -30,6 +30,11 @@ $CMP GNDiso
 D Isolated ground symbol
 $ENDCMP
 #
+$CMP LNK3202D
+D Highly Energy Efficient Off-line Switcher IC with Integrated System
+F https://ac-dc.power.com/sites/default/files/product_document/data_sheet/linkswitch-tn2_family_datasheet.pdf
+$ENDCMP
+#
 $CMP LTC6804-1
 D Battery Pack Monitor
 F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
