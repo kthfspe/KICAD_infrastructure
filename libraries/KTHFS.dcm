@@ -12,6 +12,11 @@ $CMP 74LVC2G157DCURG4
 D 2 to 1 multiplexer
 $ENDCMP
 #
+$CMP ATSAMC21E
+D Atmel SAM C21 E
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-C20C21-Family-Datasheet-DS60001479C.pdf
+$ENDCMP
+#
 $CMP ATSAMC21J
 D Atmel SAM C21 J
 $ENDCMP
