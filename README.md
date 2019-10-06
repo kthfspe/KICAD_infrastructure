@@ -48,7 +48,7 @@ To properly set up the libraries the follwing instructions are recommended.
 16. Navigate to the cloned repository, then libraries and select ``KTHFS.pretty``. After finishing the path should get automatically replaced by ``${KICAD_INFRASTRUCTURE}`` as seen in this picture. If this does not happen, make sure the previous steps were followed correctly or ask for help.
 ![asgasd](https://i.imgur.com/f8ngJjN.png)
 
-17. Open a finished project to verify that libraries where set up correctly. You can do that by opening a schematic and checking if the car image appears on the bottom right corner.
+17. Open a finished project to verify that libraries where set up correctly. You can do that by opening an already existing schematic and checking if the car image appears on the bottom right corner. NOTE: the car won't appear if you create a new schematic, you should open one from Github, for example[LV BMS](https://github.com/kthfspe/LV_BMS-HW)
 ![asdgad](https://i.imgur.com/KP7DJ9w.png)
 
 ## Requesting new symbols or footprints
