@@ -56,6 +56,12 @@ D Battery Pack Monitor
 F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
 $ENDCMP
 #
+$CMP MSS6200G04
+D 6 Pole Single Throw (SPST) switch, small symbol
+K dip switch
+F ~
+$ENDCMP
+#
 $CMP Q_NMOS_enh
 D N-MOSFET transistor, drain/source/gate
 K transistor NMOS N-MOS N-MOSFET
