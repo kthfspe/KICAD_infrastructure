@@ -41,6 +41,12 @@ K SPST-NO
 F https://standexelectronics.com/viewer/pdfjs/web/viewer.php?file=https%3A%2F%2Fstandexelectronics.com%2Fwp-content%2Fuploads%2F2015%2F03%2FKT_V03.pdf
 $ENDCMP
 #
+$CMP KTxx-1A-40L
+D Reed realay 1kV isolation, SPST-NO, 24 V
+K SPST-NO
+F https://standexelectronics.com/viewer/pdfjs/web/viewer.php?file=https%3A%2F%2Fstandexelectronics.com%2Fwp-content%2Fuploads%2F2015%2F03%2FKT_V03.pdf
+$ENDCMP
+#
 $CMP LNK3202D
 D Highly Energy Efficient Off-line Switcher IC with Integrated System
 F https://ac-dc.power.com/sites/default/files/product_document/data_sheet/linkswitch-tn2_family_datasheet.pdf
