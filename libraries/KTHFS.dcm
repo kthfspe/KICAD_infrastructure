@@ -12,6 +12,18 @@ $CMP 74LVC2G157DCURG4
 D 2 to 1 multiplexer
 $ENDCMP
 #
+$CMP ADP150
+D Low power 150mA LDO
+K linear low dropout Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf
+$ENDCMP
+#
+$CMP ADP150AUJZ-3.3-R7
+D Low power 150mA LDO 3.3 V fixed output voltage
+K linear low dropout Regulator fixed
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP150.pdf
+$ENDCMP
+#
 $CMP ATSAMC21E
 D Atmel SAM C21 E
 F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-C20C21-Family-Datasheet-DS60001479C.pdf
