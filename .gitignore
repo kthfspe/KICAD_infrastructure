@@ -1,2 +1,37 @@
-.DS_Store
+# KTH Formula Student
+# .gitignore for KiCAD
+
+# Temporary files
+*.000
+*.bak
 *.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+*.html
+
+# Diff outputs
+*.svg
+
+# PDFs
+*.pdf
+
+# Gerber exports
+gerbers/
+*.gbr
