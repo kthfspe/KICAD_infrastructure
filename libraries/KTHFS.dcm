@@ -43,6 +43,12 @@ D Reed realay 1kV isolation, SPST-NC, 24 V
 K SPST-NO
 $ENDCMP
 #
+$CMP D_Schottky_x2_Serial_AKC
+D Dual Schottky diode, anode/cathode/center
+K diode
+F ~
+$ENDCMP
+#
 $CMP GNDiso
 D Isolated ground symbol
 $ENDCMP
