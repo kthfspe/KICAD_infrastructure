@@ -8,6 +8,12 @@ $CMP +5Viso
 D Isolated 5 volt supply symbol
 $ENDCMP
 #
+$CMP 7490100110A
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
+K single port ethernet transformer poe center-tap
+F https://www.we-online.com/catalog/datasheet/7490100110A.pdf
+$ENDCMP
+#
 $CMP 74LVC2G157DCURG4
 D 2 to 1 multiplexer
 $ENDCMP
@@ -110,6 +116,12 @@ $ENDCMP
 #
 $CMP UCC2946
 D Whatchdog supervisor
+$ENDCMP
+#
+$CMP WE-LAN
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
+K single port ethernet transformer poe center-tap
+F https://www.we-online.com/catalog/datasheet/7490100110A.pdf
 $ENDCMP
 #
 $CMP Wurth-FDSM
