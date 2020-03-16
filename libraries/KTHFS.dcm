@@ -65,6 +65,12 @@ K SPST-NO
 F https://standexelectronics.com/viewer/pdfjs/web/viewer.php?file=https%3A%2F%2Fstandexelectronics.com%2Fwp-content%2Fuploads%2F2015%2F03%2FKT_V03.pdf
 $ENDCMP
 #
+$CMP LM321
+D Low Power Single Operational Amplifier, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm321.pdf
+$ENDCMP
+#
 $CMP LNK3202D
 D Highly Energy Efficient Off-line Switcher IC with Integrated System
 F https://ac-dc.power.com/sites/default/files/product_document/data_sheet/linkswitch-tn2_family_datasheet.pdf
