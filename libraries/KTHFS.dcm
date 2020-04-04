@@ -98,6 +98,12 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP SW_Rotary10
+D rotary switch with 10 positions
+K rotary switch
+F http://www.grayhill.com/assets/1/7/Rotary_56.pdf
+$ENDCMP
+#
 $CMP SW_SPST-closed
 D Single Pole Single Throw (SPST) closed switch
 K switch lever
