@@ -110,6 +110,12 @@ K rotary switch
 F http://www.grayhill.com/assets/1/7/Rotary_56.pdf
 $ENDCMP
 #
+$CMP SW_Rotary8
+D rotary switch with 8 positions
+K rotary switch
+F http://www.grayhill.com/assets/1/7/Rotary_56.pdf
+$ENDCMP
+#
 $CMP SW_SPST-closed
 D Single Pole Single Throw (SPST) closed switch
 K switch lever
