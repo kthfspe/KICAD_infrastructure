@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:blocks-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -31,7 +30,7 @@ U 1 1 5DEA8676
 P 5975 3550
 F 0 "C?" H 6090 3596 50  0000 L CNN
 F 1 "2.2u" H 6090 3505 50  0000 L CNN
-F 2 "" H 6013 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6013 3400 50  0001 C CNN
 F 3 "~" H 5975 3550 50  0001 C CNN
 	1    5975 3550
 	1    0    0    -1  
@@ -74,7 +73,7 @@ U 1 1 5DEA920C
 P 6350 3550
 F 0 "C?" H 6465 3596 50  0000 L CNN
 F 1 "2.2u" H 6465 3505 50  0000 L CNN
-F 2 "" H 6388 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6388 3400 50  0001 C CNN
 F 3 "~" H 6350 3550 50  0001 C CNN
 	1    6350 3550
 	1    0    0    -1  
@@ -95,8 +94,8 @@ Wire Wire Line
 	6350 3225 7025 3225
 Wire Wire Line
 	5975 3775 7025 3775
-Text Notes 6600 3575 0    50   ~ 0
-Cin and Cout: X7R
+Text Notes 6700 3600 0    50   ~ 0
+Cin and Cout: \n100V, X7R
 Wire Wire Line
 	4975 3775 4800 3775
 Wire Wire Line
@@ -108,4 +107,6 @@ Wire Wire Line
 	4975 3225 4125 3225
 Text HLabel 4125 3225 0    50   Input ~ 0
 enable
+Text Notes 3950 3700 0    50   ~ 0
+Leaving Iset floating\nand Ifix to GND makes\nthe LED current 350 mA
 $EndSCHEMATC
