@@ -1,8 +1,8 @@
-(module Wurth_WBT_2.0_6x2_angle (layer F.Cu) (tedit 5F10259A)
+(module Wurth-WBT_2.0_6x2_angle (layer F.Cu) (tedit 5F1092CA)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Wurth_WBT_2.0_6x2_angle (at 0 -0.5) (layer F.Fab)
+  (fp_text value Wurth-WBT_2.0_6x2_angle (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 2.7 -4.8) (end 2.7 9.2) (layer F.SilkS) (width 0.15))
@@ -40,7 +40,7 @@
   (pad 10 thru_hole circle (at -8 -2.5) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 11 thru_hole circle (at -10 0) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at -10 -2.5) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/Wurth_WBT_2.0_6x2_angle.stp
+  (model ${KICAD_INFRASTRUCTURE}/libraries/3dmodels/Wurth-WBT_2.0_6x2_angle.stp
     (offset (xyz -5 -2.25 4.65))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
