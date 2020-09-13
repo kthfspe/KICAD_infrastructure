@@ -91,29 +91,9 @@ D Battery Pack Monitor
 F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
 $ENDCMP
 #
-$CMP M74VHC1G132DFT1G
-D Single 2-input NAND gate
-F https://www.onsemi.com/pub/Collateral/MC74VHC1G132-D.PDF
-$ENDCMP
-#
-$CMP MC74HC02ADR2G
-D Quad 2-input NOR gate
-F https://www.onsemi.com/pub/Collateral/MC74HC02A-D.PDF
-$ENDCMP
-#
 $CMP MC74HC08ADR2G
 D Quad 2-input AND gate
 F https://www.onsemi.com/pub/Collateral/MC74HC08A-D.PDF
-$ENDCMP
-#
-$CMP MC74HC32ADR2G
-D Quad 2-input OR gate
-F https://www.onsemi.com/pub/Collateral/MC74HC32A-D.PDF
-$ENDCMP
-#
-$CMP MC74VHC1G32DFT2G
-D Single 2-input OR gate
-F https://www.onsemi.com/pub/Collateral/MC74VHC1G32-D.PDF
 $ENDCMP
 #
 $CMP MSS6200G04
@@ -134,14 +114,34 @@ K rotary switch encoder switch push button
 F ~
 $ENDCMP
 #
-$CMP SN74LVC1G02DCKR
-D Single 2-input NOR gate
-F https://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf?ts=1599990413261&ref_url=https%253A%252F%252Fwww.google.com%252F
+$CMP SN74AHC1G00
+D Single 2-input NAND gate
+F https://www.ti.com/lit/ds/symlink/sn74ahc1g00.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599994143834
 $ENDCMP
 #
-$CMP SN74LVC1G86DCKR
+$CMP SN74AHC1G86
 D Single 2-input XOR gate
-F https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf?ts=1599990375132&ref_url=https%253A%252F%252Fwww.google.com%252F
+F https://www.ti.com/lit/ds/symlink/sn74ahc1g86.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599994655203
+$ENDCMP
+#
+$CMP SN74AHC32
+D Quad 2-input OR gate
+F https://www.ti.com/lit/ds/symlink/sn74ahc32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599994754384
+$ENDCMP
+#
+$CMP SN74AHCT1G02
+D Single 2-input NOR gate
+F https://www.ti.com/lit/ds/symlink/sn74ahct1g02.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599994537473
+$ENDCMP
+#
+$CMP SN74HC02
+D Quad 2-input NOR gate
+F https://www.ti.com/lit/ds/symlink/sn74hc02.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599994390889
+$ENDCMP
+#
+$CMP SN74HC1G32
+D Single 2-input OR gate
+F https://www.ti.com/lit/ds/symlink/sn74ahc1g32.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599994296862
 $ENDCMP
 #
 $CMP SW_Rotary10
