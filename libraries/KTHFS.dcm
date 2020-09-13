@@ -14,11 +14,6 @@ K single port ethernet transformer poe center-tap
 F https://www.we-online.com/catalog/datasheet/7490100110A.pdf
 $ENDCMP
 #
-$CMP 74LVC1G08GW,125
-D Single 2-input AND gate
-F https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
-$ENDCMP
-#
 $CMP 74LVC2G157DCURG4
 D 2 to 1 multiplexer
 $ENDCMP
