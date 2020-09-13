@@ -14,6 +14,11 @@ K single port ethernet transformer poe center-tap
 F https://www.we-online.com/catalog/datasheet/7490100110A.pdf
 $ENDCMP
 #
+$CMP 74LVC1G08GW,125
+D Single 2-input AND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
+$ENDCMP
+#
 $CMP 74LVC2G157DCURG4
 D 2 to 1 multiplexer
 $ENDCMP
@@ -86,6 +91,31 @@ D Battery Pack Monitor
 F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
 $ENDCMP
 #
+$CMP M74VHC1G132DFT1G
+D Single 2-input NAND gate
+F https://www.onsemi.com/pub/Collateral/MC74VHC1G132-D.PDF
+$ENDCMP
+#
+$CMP MC74HC02ADR2G
+D Quad 2-input NOR gate
+F https://www.onsemi.com/pub/Collateral/MC74HC02A-D.PDF
+$ENDCMP
+#
+$CMP MC74HC08ADR2G
+D Quad 2-input AND gate
+F https://www.onsemi.com/pub/Collateral/MC74HC08A-D.PDF
+$ENDCMP
+#
+$CMP MC74HC32ADR2G
+D Quad 2-input OR gate
+F https://www.onsemi.com/pub/Collateral/MC74HC32A-D.PDF
+$ENDCMP
+#
+$CMP MC74VHC1G32DFT2G
+D Single 2-input OR gate
+F https://www.onsemi.com/pub/Collateral/MC74VHC1G32-D.PDF
+$ENDCMP
+#
 $CMP MSS6200G04
 D 6 Pole Single Throw (SPST) switch, small symbol
 K dip switch
@@ -102,6 +132,16 @@ $CMP Rotary_Encoder_Switch
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch
 K rotary switch encoder switch push button
 F ~
+$ENDCMP
+#
+$CMP SN74LVC1G02DCKR
+D Single 2-input NOR gate
+F https://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf?ts=1599990413261&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP SN74LVC1G86DCKR
+D Single 2-input XOR gate
+F https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf?ts=1599990375132&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
 $CMP SW_Rotary10
