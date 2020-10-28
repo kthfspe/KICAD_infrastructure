@@ -168,4 +168,39 @@ $CMP Wurth-VDRM
 D Variable Step Down Regulator Module
 $ENDCMP
 #
+$CMP SN74AHC08
+D Quad 2-input AND gate
+F https://www.ti.com/lit/ds/symlink/sn74ahc08.pdf?ts=1603879089602&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74AHC08
+$ENDCMP
+#
+$CMP SN74AHC1G00
+D Single 2-input NAND gate
+F https://www.ti.com/lit/ds/symlink/sn74ahc1g00.pdf?HQS=TI-null-null-alldatasheets-df-pf-SEP-wwe&ts=1603808301061
+$ENDCMP
+#
+$CMP SN74AHC1G32
+D Single 2-input OR gate
+F https://www.ti.com/lit/ds/symlink/sn74ahc1g32.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1603875735093&ref_url=https%253A%252F%252Fwww.mouser.de%252F
+$ENDCMP
+#
+$CMP SN74AHC1G86
+D Single 2-input XOR gate
+F https://www.ti.com/lit/ds/symlink/sn74ahc1g86.pdf?ts=1603814809958&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP SN74AHC32
+D Quad 2-input OR gate
+F https://www.ti.com/lit/ds/symlink/sn74ahc32.pdf?ts=1603878918081&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74AHC32
+$ENDCMP
+#
+$CMP SN74AHCT1G02
+D Single 2-input NOR gate
+F https://www.ti.com/lit/ds/symlink/sn74ahct1g02.pdf?ts=1603878526020&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP SN74HC02
+D Quad 2-input NOR gate
+F https://www.ti.com/lit/ds/symlink/sn54hc02-sp.pdf?ts=1603797423993&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
 #End Doc Library
