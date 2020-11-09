@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:blocks-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "Schematic Blocks"
 Date "2019-12-05"
 Rev "1.0"
@@ -79,5 +78,11 @@ S 4400 850  850  650
 U 5DEB58F1
 F0 "CAN Transciever 5 V" 50
 F1 "CAN_transciever_5.sch" 50
+$EndSheet
+$Sheet
+S 2800 1950 850  650 
+U 5FA7EFFD
+F0 "STM32F091" 50
+F1 "STM32F091.sch" 50
 $EndSheet
 $EndSCHEMATC
