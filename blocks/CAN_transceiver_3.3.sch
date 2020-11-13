@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title "Schematic Blocks"
 Date "2019-12-05"
 Rev "1.0"
@@ -13,17 +13,6 @@ Comment2 "Jordi Altayó"
 Comment3 "jordiag@kth.se"
 Comment4 ""
 $EndDescr
-$Comp
-L Interface_CAN_LIN:SN65HVD232 U?
-U 1 1 5EEB2C8B
-P 5500 3000
-F 0 "U?" H 5300 3250 50  0000 C CNN
-F 1 "SN65HVD232" H 5850 2650 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 5400 3400 50  0001 C CNN
-	1    5500 3000
-	1    0    0    -1  
-$EndComp
 Text HLabel 4700 2900 0    50   Input ~ 0
 TX
 Text HLabel 4700 3000 0    50   Output ~ 0
@@ -65,7 +54,7 @@ F 3 "" H 5500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 3500 5500 3400
+	5500 3500 5500 3450
 $Comp
 L Device:C C?
 U 1 1 5EEB3AF7
@@ -97,4 +86,31 @@ Wire Wire Line
 	5950 2600 5950 2550
 Wire Wire Line
 	5950 2550 5900 2550
+$Comp
+L Interface_CAN_LIN:SN65HVD233 U?
+U 1 1 5FAEC37C
+P 5500 3000
+F 0 "U?" H 5500 3481 50  0000 C CNN
+F 1 "SN65HVD233" H 5500 3390 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf" H 5400 3400 50  0001 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3200 5000 3200
+Wire Wire Line
+	5000 3450 5500 3450
+Wire Wire Line
+	5000 3200 5000 3450
+Connection ~ 5500 3450
+Wire Wire Line
+	5500 3450 5500 3400
+Wire Wire Line
+	5100 3100 5000 3100
+Wire Wire Line
+	5000 3100 5000 3200
+Connection ~ 5000 3200
+Text Notes 6000 3450 0    50   ~ 0
+By shorting pin 5 and 6 to GND all\nSN65HVD23* transcievers will work
 $EndSCHEMATC
