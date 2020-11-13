@@ -112,5 +112,5 @@ Wire Wire Line
 	5000 3100 5000 3200
 Connection ~ 5000 3200
 Text Notes 6000 3450 0    50   ~ 0
-By shorting pin 5 and 6 to GND all\nSN65HVD23* transcievers will work
+By shorting pin 5 and 8 to GND all\nSN65HVD23* transcievers will work
 $EndSCHEMATC
