@@ -166,7 +166,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf
 $ENDCMP
 #
 $CMP TLP152
-F file:///C:/Users/Simon%20Richter/Downloads/TLP152_datasheet_en_20171219%20(6).pdf
+F https://www.mouser.se/datasheet/2/408/TLP152_datasheet_en_20171219-1916251.pdf
 $ENDCMP
 #
 $CMP TLV9061
