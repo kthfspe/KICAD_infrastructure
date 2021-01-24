@@ -165,6 +165,10 @@ D Dual MOSFET driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001423J.pdf
 $ENDCMP
 #
+$CMP TLP152
+F file:///C:/Users/Simon%20Richter/Downloads/TLP152_datasheet_en_20171219%20(6).pdf
+$ENDCMP
+#
 $CMP TLV9061
 D Single rail-to-rail Operational Amplifier, SOT-23 (5)
 F https://www.ti.com/lit/ds/symlink/tlv9064.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1605439879519
