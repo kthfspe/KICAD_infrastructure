@@ -36,3 +36,4 @@ fp-info-cache
 # Gerber exports
 gerbers/
 *.gbr
+.DS_Store
