@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LD39050PU33R)(type Legacy)(uri ${KICAD_INFRASTRUCTURE}/modules/LD39050PU33R.lib)(options "")(descr ""))
+)

@@ -1,0 +1,534 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date "2019-12-04"
+Rev "1.0"
+Comp "KTH Formula Student"
+Comment1 "Dev17"
+Comment2 "Holger Stenberg"
+Comment3 "holger.98@hotmail.com"
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC857 Q?
+U 1 1 5DEEA98F
+P 4300 1800
+AR Path="/62FC0AC7/5DEEA98F" Ref="Q?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEEA98F" Ref="Q?"  Part="1" 
+AR Path="/62FC156F/5DEEA98F" Ref="Q1"  Part="1" 
+F 0 "Q1" H 4491 1754 50  0000 L CNN
+F 1 "BC857" H 4491 1845 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 1725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC856.pdf" H 4300 1800 50  0001 L CNN
+	1    4300 1800
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC847 Q?
+U 1 1 5DEED491
+P 4950 5250
+AR Path="/62FC0AC7/5DEED491" Ref="Q?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEED491" Ref="Q?"  Part="1" 
+AR Path="/62FC156F/5DEED491" Ref="Q2"  Part="1" 
+F 0 "Q2" H 5141 5296 50  0000 L CNN
+F 1 "BC847" H 5141 5205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 5175 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 4950 5250 50  0001 L CNN
+	1    4950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEEE60F
+P 4100 1450
+AR Path="/62FC0AC7/5DEEE60F" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEEE60F" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEEE60F" Ref="R5"  Part="1" 
+F 0 "R5" V 3893 1450 50  0000 C CNN
+F 1 "200" V 3984 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 1450 50  0001 C CNN
+F 3 "~" H 4100 1450 50  0001 C CNN
+	1    4100 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEEF1F7
+P 3550 1800
+AR Path="/62FC0AC7/5DEEF1F7" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEEF1F7" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEEF1F7" Ref="R3"  Part="1" 
+F 0 "R3" V 3343 1800 50  0000 C CNN
+F 1 "1k" V 3434 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 1800 50  0001 C CNN
+F 3 "~" H 3550 1800 50  0001 C CNN
+	1    3550 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEEF81A
+P 3100 1800
+AR Path="/62FC0AC7/5DEEF81A" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEEF81A" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEEF81A" Ref="R1"  Part="1" 
+F 0 "R1" V 2893 1800 50  0000 C CNN
+F 1 "1k" V 2984 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 1800 50  0001 C CNN
+F 3 "~" H 3100 1800 50  0001 C CNN
+	1    3100 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEEFA63
+P 4400 2650
+AR Path="/62FC0AC7/5DEEFA63" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEEFA63" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEEFA63" Ref="R6"  Part="1" 
+F 0 "R6" H 4330 2604 50  0000 R CNN
+F 1 "20k" H 4330 2695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 2650 50  0001 C CNN
+F 3 "~" H 4400 2650 50  0001 C CNN
+	1    4400 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEF03B8
+P 5700 2650
+AR Path="/62FC0AC7/5DEF03B8" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEF03B8" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEF03B8" Ref="R9"  Part="1" 
+F 0 "R9" H 5630 2604 50  0000 R CNN
+F 1 "100k" H 5630 2695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 2650 50  0001 C CNN
+F 3 "~" H 5700 2650 50  0001 C CNN
+	1    5700 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEF05C5
+P 4900 2450
+AR Path="/62FC0AC7/5DEF05C5" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEF05C5" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEF05C5" Ref="R7"  Part="1" 
+F 0 "R7" V 4693 2450 50  0000 C CNN
+F 1 "100k" V 4784 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 2450 50  0001 C CNN
+F 3 "~" H 4900 2450 50  0001 C CNN
+	1    4900 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEF0FF8
+P 3150 5250
+AR Path="/62FC0AC7/5DEF0FF8" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEF0FF8" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEF0FF8" Ref="R2"  Part="1" 
+F 0 "R2" V 3357 5250 50  0000 C CNN
+F 1 "1k" V 3266 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5250 50  0001 C CNN
+F 3 "~" H 3150 5250 50  0001 C CNN
+	1    3150 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEF2125
+P 3700 5550
+AR Path="/62FC0AC7/5DEF2125" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEF2125" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEF2125" Ref="R4"  Part="1" 
+F 0 "R4" H 3770 5596 50  0000 L CNN
+F 1 "10k" H 3770 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 5550 50  0001 C CNN
+F 3 "~" H 3700 5550 50  0001 C CNN
+	1    3700 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEF28E1
+P 5750 5400
+AR Path="/62FC0AC7/5DEF28E1" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEF28E1" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEF28E1" Ref="R11"  Part="1" 
+F 0 "R11" H 5820 5446 50  0000 L CNN
+F 1 "5k" H 5820 5355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 5400 50  0001 C CNN
+F 3 "~" H 5750 5400 50  0001 C CNN
+	1    5750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DEF2D6A
+P 5050 4350
+AR Path="/62FC0AC7/5DEF2D6A" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEF2D6A" Ref="R?"  Part="1" 
+AR Path="/62FC156F/5DEF2D6A" Ref="R8"  Part="1" 
+F 0 "R8" H 5120 4396 50  0000 L CNN
+F 1 "20k" H 5120 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 4350 50  0001 C CNN
+F 3 "~" H 5050 4350 50  0001 C CNN
+	1    5050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DEF559B
+P 4400 2200
+AR Path="/62FC0AC7/5DEF559B" Ref="D?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEF559B" Ref="D?"  Part="1" 
+AR Path="/62FC156F/5DEF559B" Ref="D1"  Part="1" 
+F 0 "D1" V 4439 2082 50  0000 R CNN
+F 1 "GREEN" V 4348 2082 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4400 2200 50  0001 C CNN
+F 3 "~" H 4400 2200 50  0001 C CNN
+	1    4400 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DEF6BB5
+P 5050 4700
+AR Path="/62FC0AC7/5DEF6BB5" Ref="D?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEF6BB5" Ref="D?"  Part="1" 
+AR Path="/62FC156F/5DEF6BB5" Ref="D2"  Part="1" 
+F 0 "D2" V 5089 4582 50  0000 R CNN
+F 1 "RED" V 4998 4582 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5050 4700 50  0001 C CNN
+F 3 "~" H 5050 4700 50  0001 C CNN
+	1    5050 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 1450 4400 1450
+Wire Wire Line
+	4400 1000 4400 1450
+Connection ~ 4400 1450
+Wire Wire Line
+	4400 1450 4400 1600
+Wire Wire Line
+	3950 1450 3850 1450
+Wire Wire Line
+	3400 1800 3250 1800
+Wire Wire Line
+	2950 1800 2800 1800
+Wire Wire Line
+	3850 1450 3850 1800
+Connection ~ 3850 1800
+Wire Wire Line
+	3850 1800 4100 1800
+Wire Wire Line
+	3700 1800 3850 1800
+Wire Wire Line
+	4400 2000 4400 2050
+Wire Wire Line
+	4400 2350 4400 2450
+Wire Wire Line
+	4400 2450 4750 2450
+Connection ~ 4400 2450
+Wire Wire Line
+	4400 2450 4400 2500
+Wire Wire Line
+	5700 2450 5700 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5DEFBA12
+P 4400 2900
+AR Path="/62FC0AC7/5DEFBA12" Ref="#PWR?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEFBA12" Ref="#PWR?"  Part="1" 
+AR Path="/62FC156F/5DEFBA12" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 4400 2650 50  0001 C CNN
+F 1 "GND" H 4405 2727 50  0000 C CNN
+F 2 "" H 4400 2900 50  0001 C CNN
+F 3 "" H 4400 2900 50  0001 C CNN
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DEFC017
+P 5700 2900
+AR Path="/62FC0AC7/5DEFC017" Ref="#PWR?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEFC017" Ref="#PWR?"  Part="1" 
+AR Path="/62FC156F/5DEFC017" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 5700 2650 50  0001 C CNN
+F 1 "GND" H 5705 2727 50  0000 C CNN
+F 2 "" H 5700 2900 50  0001 C CNN
+F 3 "" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2900 5700 2800
+Wire Wire Line
+	4400 2800 4400 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5DEFCF9A
+P 5050 5850
+AR Path="/62FC0AC7/5DEFCF9A" Ref="#PWR?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DEFCF9A" Ref="#PWR?"  Part="1" 
+AR Path="/62FC156F/5DEFCF9A" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 5050 5600 50  0001 C CNN
+F 1 "GND" H 5055 5677 50  0000 C CNN
+F 2 "" H 5050 5850 50  0001 C CNN
+F 3 "" H 5050 5850 50  0001 C CNN
+	1    5050 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5450 5050 5750
+Wire Wire Line
+	5050 4850 5050 5000
+Wire Wire Line
+	5050 4500 5050 4550
+Connection ~ 5050 5000
+Wire Wire Line
+	5050 5000 5050 5050
+Wire Wire Line
+	5750 5000 6075 5000
+Connection ~ 5750 5000
+Wire Wire Line
+	4750 5250 3700 5250
+Wire Wire Line
+	3700 5250 3700 5400
+Wire Wire Line
+	3300 5250 3700 5250
+Connection ~ 3700 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5DF013B7
+P 3700 5850
+AR Path="/62FC0AC7/5DF013B7" Ref="#PWR?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DF013B7" Ref="#PWR?"  Part="1" 
+AR Path="/62FC156F/5DF013B7" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 3700 5600 50  0001 C CNN
+F 1 "GND" H 3705 5677 50  0000 C CNN
+F 2 "" H 3700 5850 50  0001 C CNN
+F 3 "" H 3700 5850 50  0001 C CNN
+	1    3700 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5700 3700 5850
+$Comp
+L power:+24V #PWR?
+U 1 1 5DF02A73
+P 4400 1000
+AR Path="/62FC0AC7/5DF02A73" Ref="#PWR?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/5DF02A73" Ref="#PWR?"  Part="1" 
+AR Path="/62FC156F/5DF02A73" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 4400 850 50  0001 C CNN
+F 1 "+24V" H 4415 1173 50  0000 C CNN
+F 2 "" H 4400 1000 50  0001 C CNN
+F 3 "" H 4400 1000 50  0001 C CNN
+	1    4400 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5250 2800 5250
+Text HLabel 2800 1800 0    50   Input ~ 0
+signal_in+
+Text HLabel 2800 5250 0    50   Input ~ 0
+signal_in-
+Text HLabel 6750 4550 2    50   Output ~ 0
+~fault_out
+Wire Wire Line
+	5700 2450 6025 2450
+Connection ~ 5700 2450
+Text HLabel 6750 2050 2    50   Output ~ 0
+~signal_out
+Text Notes 2850 2150 0    50   ~ 0
+devided into two resistors\ndue to power dissipation\nin case of short to GND
+Text Notes 3700 1250 0    50   ~ 0
+current sensing\nresistor
+Text Notes 4400 4425 0    50   ~ 0
+resistor for for \nLED indication\n
+Text Notes 3300 5150 0    50   ~ 0
+voltage dividers\n
+Text Notes 5700 2850 0    50   ~ 0
+pull down
+Text Notes 1000 3300 0    50   ~ 0
+LED COLORS:\nColors of LEDs follow the protocol found on Github wiki / team wiki
+$Comp
+L Connector:TestPoint_Probe TP?
+U 1 1 60BA7224
+P 6025 2125
+AR Path="/5DEA5A1A/60BA7224" Ref="TP?"  Part="1" 
+AR Path="/5DEB7844/60BA7224" Ref="TP4"  Part="1" 
+AR Path="/62FC0AC7/60BA7224" Ref="TP?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/60BA7224" Ref="TP?"  Part="1" 
+AR Path="/62FC156F/60BA7224" Ref="TP1"  Part="1" 
+F 0 "TP1" H 6178 2180 50  0000 L CNN
+F 1 "TestPoint_Probe" H 6178 2135 50  0001 L CNN
+F 2 "KTHFS:TestHook_0805" H 6225 2125 50  0001 C CNN
+F 3 "~" H 6225 2125 50  0001 C CNN
+	1    6025 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 2125 6025 2450
+Connection ~ 6025 2450
+Wire Wire Line
+	6025 2450 6100 2450
+$Comp
+L Connector:TestPoint_Probe TP?
+U 1 1 60BA8C23
+P 6075 4775
+AR Path="/5DEA5A1A/60BA8C23" Ref="TP?"  Part="1" 
+AR Path="/5DEB7844/60BA8C23" Ref="TP3"  Part="1" 
+AR Path="/62FC0AC7/60BA8C23" Ref="TP?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/60BA8C23" Ref="TP?"  Part="1" 
+AR Path="/62FC156F/60BA8C23" Ref="TP2"  Part="1" 
+F 0 "TP2" H 6228 4830 50  0000 L CNN
+F 1 "TestPoint_Probe" H 6228 4785 50  0001 L CNN
+F 2 "KTHFS:TestHook_0805" H 6275 4775 50  0001 C CNN
+F 3 "~" H 6275 4775 50  0001 C CNN
+	1    6075 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 4775 6075 5000
+Connection ~ 6075 5000
+Wire Wire Line
+	6075 5000 6150 5000
+Wire Wire Line
+	5050 2450 5700 2450
+$Comp
+L power:+24V #PWR?
+U 1 1 62FBBD34
+P 5050 4100
+AR Path="/62FC0AC7/62FBBD34" Ref="#PWR?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/62FBBD34" Ref="#PWR?"  Part="1" 
+AR Path="/62FC156F/62FBBD34" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 5050 3950 50  0001 C CNN
+F 1 "+24V" H 5065 4273 50  0000 C CNN
+F 2 "" H 5050 4100 50  0001 C CNN
+F 3 "" H 5050 4100 50  0001 C CNN
+	1    5050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5000 5750 5250
+Wire Wire Line
+	5750 5550 5750 5750
+Connection ~ 5050 5750
+Wire Wire Line
+	5050 5750 5050 5850
+$Comp
+L Device:Q_NMOS_GSD Q4
+U 1 1 62FBE153
+P 6350 5000
+F 0 "Q4" H 6554 5046 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 6554 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6550 5100 50  0001 C CNN
+F 3 "~" H 6350 5000 50  0001 C CNN
+	1    6350 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4550 6450 4550
+Wire Wire Line
+	6450 4550 6450 4800
+Wire Wire Line
+	6450 5200 6450 5750
+Wire Wire Line
+	6450 5750 5750 5750
+Connection ~ 5750 5750
+$Comp
+L Device:Q_NMOS_GSD Q3
+U 1 1 62FBFD84
+P 6300 2450
+F 0 "Q3" H 6504 2496 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 6504 2405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2550 50  0001 C CNN
+F 3 "~" H 6300 2450 50  0001 C CNN
+	1    6300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2050 6400 2050
+Wire Wire Line
+	6400 2050 6400 2250
+Wire Wire Line
+	6400 2650 6400 2900
+$Comp
+L power:GND #PWR?
+U 1 1 62FC228E
+P 6400 2900
+AR Path="/62FC0AC7/62FC228E" Ref="#PWR?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/62FC228E" Ref="#PWR?"  Part="1" 
+AR Path="/62FC156F/62FC228E" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 6400 2650 50  0001 C CNN
+F 1 "GND" H 6405 2727 50  0000 C CNN
+F 2 "" H 6400 2900 50  0001 C CNN
+F 3 "" H 6400 2900 50  0001 C CNN
+	1    6400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4500 5750 4150
+Wire Wire Line
+	5750 4150 5050 4150
+Wire Wire Line
+	5050 4100 5050 4150
+Wire Wire Line
+	5050 4150 5050 4200
+Connection ~ 5050 4150
+Wire Wire Line
+	5750 4800 5750 5000
+Wire Wire Line
+	5050 5000 5250 5000
+$Comp
+L Device:R R?
+U 1 1 62FC25C4
+P 5750 4650
+AR Path="/62FC0AC7/62FC25C4" Ref="R?"  Part="1" 
+AR Path="/62FC14A7/62FC156F/62FC25C4" Ref="R?"  Part="1" 
+AR Path="/62FC156F/62FC25C4" Ref="R10"  Part="1" 
+F 0 "R10" H 5820 4696 50  0000 L CNN
+F 1 "20k" H 5820 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5680 4650 50  0001 C CNN
+F 3 "~" H 5750 4650 50  0001 C CNN
+	1    5750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5000 5750 5000
+$Comp
+L Device:D_Schottky D3
+U 1 1 62FC7A8F
+P 5400 5000
+F 0 "D3" H 5400 5217 50  0000 C CNN
+F 1 "D_Schottky" H 5400 5126 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5400 5000 50  0001 C CNN
+F 3 "~" H 5400 5000 50  0001 C CNN
+	1    5400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D4
+U 1 1 62FC8F31
+P 5400 5750
+F 0 "D4" H 5400 5967 50  0000 C CNN
+F 1 "D_Schottky" H 5400 5876 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5400 5750 50  0001 C CNN
+F 3 "~" H 5400 5750 50  0001 C CNN
+	1    5400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5750 5050 5750
+Wire Wire Line
+	5750 5750 5550 5750
+$EndSCHEMATC

@@ -1,0 +1,274 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4500 2500 1500 1000
+U 62FC27C5
+F0 "sheet62FC27C3" 50
+F1 "CS_TX_unit.sch" 50
+F2 "signal_in" I L 4500 2750 50 
+F3 "~fault_in" I L 4500 3250 50 
+F4 "signal_out-" O R 6000 3250 50 
+F5 "signal_out+" O R 6000 2750 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 62FC33DF
+P 9300 3050
+F 0 "J2" H 9272 3024 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 9272 2933 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9300 3050 50  0001 C CNN
+F 3 "~" H 9300 3050 50  0001 C CNN
+	1    9300 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2900 2350 2900
+Wire Wire Line
+	2050 3000 2350 3000
+Wire Wire Line
+	6000 2750 6500 2750
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 62FB8D97
+P 1850 2900
+F 0 "J1" H 1822 2874 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 1822 2783 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1850 2900 50  0001 C CNN
+F 3 "~" H 1850 2900 50  0001 C CNN
+	1    1850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 62FBA7C8
+P 3600 2750
+F 0 "SW1" H 3600 3035 50  0000 C CNN
+F 1 "SW_Push" H 3600 2944 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3600 2950 50  0001 C CNN
+F 3 "~" H 3600 2950 50  0001 C CNN
+	1    3600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3100 2050 3100
+$Comp
+L power:GND #PWR03
+U 1 1 62FBCFDB
+P 2350 3300
+F 0 "#PWR03" H 2350 3050 50  0001 C CNN
+F 1 "GND" H 2355 3127 50  0000 C CNN
+F 2 "" H 2350 3300 50  0001 C CNN
+F 3 "" H 2350 3300 50  0001 C CNN
+	1    2350 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3100 2350 3300
+Wire Wire Line
+	3750 3450 3950 3450
+Wire Wire Line
+	2050 2800 2350 2800
+Text Label 2350 2900 2    50   ~ 0
+signal
+Text Label 2350 3000 2    50   ~ 0
+~fault
+$Comp
+L power:+5V #PWR02
+U 1 1 62FC07DF
+P 2350 2600
+F 0 "#PWR02" H 2350 2450 50  0001 C CNN
+F 1 "+5V" H 2365 2773 50  0000 C CNN
+F 2 "" H 2350 2600 50  0001 C CNN
+F 3 "" H 2350 2600 50  0001 C CNN
+	1    2350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2600 2350 2800
+$Comp
+L power:+5V #PWR04
+U 1 1 62FC1DA8
+P 3100 2050
+F 0 "#PWR04" H 3100 1900 50  0001 C CNN
+F 1 "+5V" H 3115 2223 50  0000 C CNN
+F 2 "" H 3100 2050 50  0001 C CNN
+F 3 "" H 3100 2050 50  0001 C CNN
+	1    3100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2750 3400 2750
+Wire Wire Line
+	3100 2050 3100 2750
+Wire Wire Line
+	3800 2750 4000 2750
+Text Label 3050 2900 0    50   ~ 0
+signal
+$Comp
+L Device:D D3
+U 1 1 62FC357F
+P 3600 2900
+F 0 "D3" H 3600 3025 50  0000 C CNN
+F 1 "D" H 3600 3116 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 3600 2900 50  0001 C CNN
+F 3 "~" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 2900 3450 2900
+Wire Wire Line
+	3750 2900 4000 2900
+Wire Wire Line
+	4000 2900 4000 2750
+Connection ~ 4000 2750
+Wire Wire Line
+	4000 2750 4500 2750
+$Comp
+L Device:D D4
+U 1 1 62FC468D
+P 3600 3650
+F 0 "D4" H 3600 3775 50  0000 C CNN
+F 1 "D" H 3600 3866 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 3600 3650 50  0001 C CNN
+F 3 "~" H 3600 3650 50  0001 C CNN
+	1    3600 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 62FC4E36
+P 3600 3450
+F 0 "JP1" H 3600 3317 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3600 3316 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3600 3450 50  0001 C CNN
+F 3 "~" H 3600 3450 50  0001 C CNN
+	1    3600 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 3650 3950 3650
+Wire Wire Line
+	3950 3650 3950 3450
+Connection ~ 3950 3450
+Wire Wire Line
+	3450 3650 3050 3650
+Text Label 3050 3650 0    50   ~ 0
+~fault
+$Comp
+L power:+5V #PWR05
+U 1 1 62FC7779
+P 3100 3350
+F 0 "#PWR05" H 3100 3200 50  0001 C CNN
+F 1 "+5V" H 3115 3523 50  0000 C CNN
+F 2 "" H 3100 3350 50  0001 C CNN
+F 3 "" H 3100 3350 50  0001 C CNN
+	1    3100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3450 3100 3450
+Wire Wire Line
+	3100 3450 3100 3350
+Wire Wire Line
+	3950 3450 3950 3250
+Wire Wire Line
+	3950 3250 4500 3250
+$Comp
+L Device:R R?
+U 1 1 62FD8971
+P 7750 2950
+AR Path="/62FC27C5/5DEAE1B7/62FD8971" Ref="R?"  Part="1" 
+AR Path="/62FD8971" Ref="R6"  Part="1" 
+F 0 "R6" H 7820 2996 50  0000 L CNN
+F 1 "20k" H 7820 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7680 2950 50  0001 C CNN
+F 3 "~" H 7750 2950 50  0001 C CNN
+	1    7750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62FD897E
+P 7150 2950
+AR Path="/62FC27C5/5DEAE1B7/62FD897E" Ref="R?"  Part="1" 
+AR Path="/62FD897E" Ref="R5"  Part="1" 
+F 0 "R5" H 7080 2904 50  0000 R CNN
+F 1 "1k" H 7080 2995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 2950 50  0001 C CNN
+F 3 "~" H 7150 2950 50  0001 C CNN
+	1    7150 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 62FD8DFD
+P 7450 2750
+F 0 "SW2" H 7450 3035 50  0000 C CNN
+F 1 "SW_Push" H 7450 2944 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 7450 2950 50  0001 C CNN
+F 3 "~" H 7450 2950 50  0001 C CNN
+	1    7450 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3250 6500 3250
+Wire Wire Line
+	7250 2750 7150 2750
+Wire Wire Line
+	7150 2750 7150 2800
+Wire Wire Line
+	7650 2750 7750 2750
+Wire Wire Line
+	7750 2750 7750 2800
+Wire Wire Line
+	7150 3100 7150 3150
+Wire Wire Line
+	7150 3150 7750 3150
+Wire Wire Line
+	7750 3150 7750 3100
+Text Label 8600 3050 0    50   ~ 0
+out+
+Text Label 8600 3150 0    50   ~ 0
+out-
+Text Label 6500 2750 2    50   ~ 0
+out+
+Text Label 6500 3250 2    50   ~ 0
+out-
+$Comp
+L Device:Jumper JP2
+U 1 1 62FE3802
+P 8150 2750
+F 0 "JP2" H 8150 3014 50  0000 C CNN
+F 1 "Jumper" H 8150 2923 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 2750 50  0001 C CNN
+F 3 "~" H 8150 2750 50  0001 C CNN
+	1    8150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2750 7750 2750
+Connection ~ 7750 2750
+Wire Wire Line
+	7750 3150 9100 3150
+Connection ~ 7750 3150
+Wire Wire Line
+	8500 3050 8500 2750
+Wire Wire Line
+	8500 2750 8450 2750
+Wire Wire Line
+	8500 3050 9100 3050
+$EndSCHEMATC

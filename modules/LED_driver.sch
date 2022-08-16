@@ -1,0 +1,100 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4000 2500 2000 1250
+U 62FC72E4
+F0 "LED_driver" 50
+F1 "Wurth_LED_driver.sch" 50
+F2 "LED+" O R 6000 2750 50 
+F3 "LED-" O R 6000 3250 50 
+F4 "enable" I L 4000 3000 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 62FC7575
+P 7200 2750
+F 0 "J?" H 7172 2724 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 7172 2633 50  0000 R CNN
+F 2 "" H 7200 2750 50  0001 C CNN
+F 3 "~" H 7200 2750 50  0001 C CNN
+	1    7200 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62FC8237
+P 6450 2750
+F 0 "R?" V 6243 2750 50  0000 C CNN
+F 1 "R" V 6334 2750 50  0000 C CNN
+F 2 "" V 6380 2750 50  0001 C CNN
+F 3 "~" H 6450 2750 50  0001 C CNN
+	1    6450 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 2750 7000 2750
+Wire Wire Line
+	7000 2850 6450 2850
+Wire Wire Line
+	6450 2850 6450 3250
+Wire Wire Line
+	6450 3250 6000 3250
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 62FC95D1
+P 3300 3000
+F 0 "J?" H 3272 3024 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3272 2933 50  0000 R CNN
+F 2 "" H 3300 3000 50  0001 C CNN
+F 3 "~" H 3300 3000 50  0001 C CNN
+	1    3300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3000 4000 3000
+Wire Wire Line
+	3500 2900 3800 2900
+Wire Wire Line
+	3800 2900 3800 2800
+Wire Wire Line
+	6000 2750 6300 2750
+$Comp
+L power:+24V #PWR?
+U 1 1 62FCF126
+P 3800 2800
+F 0 "#PWR?" H 3800 2650 50  0001 C CNN
+F 1 "+24V" H 3815 2973 50  0000 C CNN
+F 2 "" H 3800 2800 50  0001 C CNN
+F 3 "" H 3800 2800 50  0001 C CNN
+	1    3800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62FD0A11
+P 3800 3250
+F 0 "#PWR?" H 3800 3000 50  0001 C CNN
+F 1 "GND" H 3805 3077 50  0000 C CNN
+F 2 "" H 3800 3250 50  0001 C CNN
+F 3 "" H 3800 3250 50  0001 C CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3100 3800 3100
+Wire Wire Line
+	3800 3100 3800 3250
+$EndSCHEMATC

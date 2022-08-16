@@ -1,0 +1,113 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3500 2500 1650 1400
+U 62FDC1EA
+F0 "24_to_5_V" 50
+F1 "24_to_5_supply.sch" 50
+F2 "battery_in" I L 3500 3000 50 
+$EndSheet
+$Sheet
+S 6000 2500 2000 1500
+U 62FDC2FF
+F0 "5_to_3_V" 50
+F1 "5_to_3.sch" 50
+$EndSheet
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 62FEF88D
+P 1800 3000
+F 0 "J?" H 1908 3181 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1908 3090 50  0000 C CNN
+F 2 "" H 1800 3000 50  0001 C CNN
+F 3 "~" H 1800 3000 50  0001 C CNN
+	1    1800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 62FEFBD7
+P 9650 3300
+F 0 "J?" H 9622 3324 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9622 3233 50  0000 R CNN
+F 2 "" H 9650 3300 50  0001 C CNN
+F 3 "~" H 9650 3300 50  0001 C CNN
+	1    9650 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62FF065D
+P 9000 3000
+F 0 "#PWR?" H 9000 2850 50  0001 C CNN
+F 1 "+5V" H 9015 3173 50  0000 C CNN
+F 2 "" H 9000 3000 50  0001 C CNN
+F 3 "" H 9000 3000 50  0001 C CNN
+	1    9000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62FF0D94
+P 8600 3000
+F 0 "#PWR?" H 8600 2850 50  0001 C CNN
+F 1 "+3.3V" H 8615 3173 50  0000 C CNN
+F 2 "" H 8600 3000 50  0001 C CNN
+F 3 "" H 8600 3000 50  0001 C CNN
+	1    8600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3000 9000 3200
+Wire Wire Line
+	9000 3200 9450 3200
+Wire Wire Line
+	9450 3300 8600 3300
+Wire Wire Line
+	8600 3300 8600 3000
+$Comp
+L power:GND #PWR?
+U 1 1 62FF24C4
+P 2350 3300
+F 0 "#PWR?" H 2350 3050 50  0001 C CNN
+F 1 "GND" H 2355 3127 50  0000 C CNN
+F 2 "" H 2350 3300 50  0001 C CNN
+F 3 "" H 2350 3300 50  0001 C CNN
+	1    2350 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3300 2350 3100
+Wire Wire Line
+	2350 3100 2000 3100
+$Comp
+L power:GND #PWR?
+U 1 1 62FF2AC5
+P 9000 3550
+F 0 "#PWR?" H 9000 3300 50  0001 C CNN
+F 1 "GND" H 9005 3377 50  0000 C CNN
+F 2 "" H 9000 3550 50  0001 C CNN
+F 3 "" H 9000 3550 50  0001 C CNN
+	1    9000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3550 9000 3400
+Wire Wire Line
+	9000 3400 9450 3400
+Wire Wire Line
+	2000 3000 3500 3000
+$EndSCHEMATC
