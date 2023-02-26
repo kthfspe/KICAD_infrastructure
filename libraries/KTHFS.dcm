@@ -201,6 +201,11 @@ K single port ethernet transformer poe center-tap
 F https://www.we-online.com/catalog/datasheet/7490100110A.pdf
 $ENDCMP
 #
+$CMP WURTH-74941300
+D WE-BMS Transformer for Battery Management Systems
+F https://www.we-online.com/components/products/datasheet/74941300.pdf
+$ENDCMP
+#
 $CMP Wurth-FDSM
 D DC-DC Converter MagI3C
 K DC-DC, Step-down, Wurth
