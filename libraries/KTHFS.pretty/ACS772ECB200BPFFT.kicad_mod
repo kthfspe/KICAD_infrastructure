@@ -166,8 +166,8 @@
   (pad "33" thru_hole circle (at 6.243 -23.45) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp c644905d-e215-4732-ac76-1e6fec16c27c))
   (pad "34" thru_hole circle (at 4.91 -23.45) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp ac13ee52-0772-4281-958e-acbcdbdca6fc))
   (pad "35" thru_hole circle (at 3.734 -23.018) (size 1 1) (drill 0.5) (layers "*.Cu" "*.Mask") (tstamp 4f3cfbfa-8aed-4abb-861a-636561dd4d13))
-  (pad "36" thru_hole roundrect (at -3.097789 -21.411317) (size 5.5 2.2) (drill oval 4.5 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 3f6740bb-195b-455a-b52c-070936b21f18))
-  (pad "37" thru_hole roundrect (at 6.928959 -21.435549) (size 5.5 2.2) (drill oval 4.5 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp d8a46bbc-b0cd-4422-adc2-59efae6a9f73))
+  (pad "36" thru_hole roundrect (at -3.097789 -21.411317) (size 5.5 2.2) (drill oval 4.5 1.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (roundrect_rratio 0.25) (tstamp 3f6740bb-195b-455a-b52c-070936b21f18))
+  (pad "37" thru_hole roundrect (at 6.928959 -21.435549) (size 5.5 2.2) (drill oval 4.5 1.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (roundrect_rratio 0.25) (tstamp d8a46bbc-b0cd-4422-adc2-59efae6a9f73))
   (model "ACS770ECB-200B-PFF-T.stp"
     (offset (xyz -3.259999942 7.079999817 -12.1000002))
     (scale (xyz 1 1 1))
