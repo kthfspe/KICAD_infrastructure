@@ -1,9 +1,9 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 5
+EELAYER 43 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -12,321 +12,186 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
-$Comp
-L MCU_ST_STM32F0:STM32F091RCTx U?
-U 1 1 5FA7F7AC
-P 5850 3700
-F 0 "U?" H 5800 1811 50  0000 C CNN
-F 1 "STM32F091RCTx" H 5800 1720 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5250 2000 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf" H 5850 3700 50  0001 C CNN
-	1    5850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5FA824BC
-P 5850 1700
-F 0 "#PWR?" H 5850 1550 50  0001 C CNN
-F 1 "+3.3V" H 5865 1873 50  0000 C CNN
-F 2 "" H 5850 1700 50  0001 C CNN
-F 3 "" H 5850 1700 50  0001 C CNN
-	1    5850 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 1900 5650 1800
-Wire Wire Line
-	5650 1800 5750 1800
-Wire Wire Line
-	6050 1800 6050 1900
-Wire Wire Line
-	5950 1900 5950 1800
-Connection ~ 5950 1800
-Wire Wire Line
-	5950 1800 6050 1800
-Wire Wire Line
-	5850 1800 5850 1900
-Connection ~ 5850 1800
-Wire Wire Line
-	5850 1800 5950 1800
-Wire Wire Line
-	5750 1900 5750 1800
-Connection ~ 5750 1800
-Wire Wire Line
-	5750 1800 5850 1800
-Wire Wire Line
-	5850 1700 5850 1800
-Wire Wire Line
-	5550 5500 5550 5650
-Wire Wire Line
-	5550 5650 5650 5650
-Wire Wire Line
-	5950 5650 5950 5500
-Wire Wire Line
-	5850 5500 5850 5650
-Connection ~ 5850 5650
-Wire Wire Line
-	5850 5650 5950 5650
-Wire Wire Line
-	5750 5650 5750 5500
-Connection ~ 5750 5650
-Wire Wire Line
-	5750 5650 5850 5650
-Wire Wire Line
-	5650 5500 5650 5650
+Connection ~ 1300 6550
+Connection ~ 1300 7150
+Connection ~ 1750 6550
+Connection ~ 1750 7150
+Connection ~ 2200 6550
+Connection ~ 2200 7150
+Connection ~ 2450 6550
+Connection ~ 2450 7150
+Connection ~ 2650 6550
+Connection ~ 2650 7150
+Connection ~ 3050 6550
+Connection ~ 3050 7150
+Connection ~ 3450 6550
+Connection ~ 3450 7150
+Connection ~ 5100 7400
+Connection ~ 5650 1800
 Connection ~ 5650 5650
-Wire Wire Line
-	5650 5650 5750 5650
-$Comp
-L power:GND #PWR?
-U 1 1 5FA838BB
-P 5750 5800
-F 0 "#PWR?" H 5750 5550 50  0001 C CNN
-F 1 "GND" H 5755 5627 50  0000 C CNN
-F 2 "" H 5750 5800 50  0001 C CNN
-F 3 "" H 5750 5800 50  0001 C CNN
-	1    5750 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 5800 5750 5650
-Wire Wire Line
-	5150 2100 4900 2100
-Wire Wire Line
-	4900 2100 4900 2150
-$Comp
-L Device:C C?
-U 1 1 5FA84139
-P 4900 2300
-F 0 "C?" H 5015 2346 50  0000 L CNN
-F 1 "100n" H 5015 2255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 2150 50  0001 C CNN
-F 3 "~" H 4900 2300 50  0001 C CNN
-	1    4900 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FA84415
-P 4900 2500
-F 0 "#PWR?" H 4900 2250 50  0001 C CNN
-F 1 "GND" H 4905 2327 50  0000 C CNN
-F 2 "" H 4900 2500 50  0001 C CNN
-F 3 "" H 4900 2500 50  0001 C CNN
-	1    4900 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 2500 4900 2450
-Text Notes 4800 2200 2    50   ~ 0
-Internal pull-up\nSee datasheet page 85
-Text Label 4900 2100 0    50   ~ 0
-~reset
+Connection ~ 5750 1800
+Connection ~ 5750 5650
+Connection ~ 5850 1800
+Connection ~ 5850 5650
+Connection ~ 5950 1800
+Connection ~ 6050 1800
+Connection ~ 6550 3400
+Connection ~ 6550 3500
 NoConn ~ 5550 1900
-$Comp
-L Device:C C?
-U 1 1 5FA85099
-P 850 6850
-F 0 "C?" H 965 6896 50  0000 L CNN
-F 1 "100n" H 965 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 888 6700 50  0001 C CNN
-F 3 "~" H 850 6850 50  0001 C CNN
-	1    850  6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FA852CC
-P 1300 6850
-F 0 "C?" H 1415 6896 50  0000 L CNN
-F 1 "100n" H 1415 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1338 6700 50  0001 C CNN
-F 3 "~" H 1300 6850 50  0001 C CNN
-	1    1300 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FA85710
-P 1750 6850
-F 0 "C?" H 1865 6896 50  0000 L CNN
-F 1 "100n" H 1865 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 6700 50  0001 C CNN
-F 3 "~" H 1750 6850 50  0001 C CNN
-	1    1750 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FA85976
-P 2200 6850
-F 0 "C?" H 2315 6896 50  0000 L CNN
-F 1 "100n" H 2315 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 6700 50  0001 C CNN
-F 3 "~" H 2200 6850 50  0001 C CNN
-	1    2200 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FA85C5E
-P 2650 6850
-F 0 "C?" H 2765 6896 50  0000 L CNN
-F 1 "10n" H 2765 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2688 6700 50  0001 C CNN
-F 3 "~" H 2650 6850 50  0001 C CNN
-	1    2650 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FA85DE3
-P 3050 6850
-F 0 "C?" H 3165 6896 50  0000 L CNN
-F 1 "4.7u" H 3165 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3088 6700 50  0001 C CNN
-F 3 "~" H 3050 6850 50  0001 C CNN
-	1    3050 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FA8600E
-P 3450 6850
-F 0 "C?" H 3565 6896 50  0000 L CNN
-F 1 "4.7u" H 3565 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 6700 50  0001 C CNN
-F 3 "~" H 3450 6850 50  0001 C CNN
-	1    3450 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FA862DD
-P 3850 6850
-F 0 "C?" H 3965 6896 50  0000 L CNN
-F 1 "1u" H 3965 6805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3888 6700 50  0001 C CNN
-F 3 "~" H 3850 6850 50  0001 C CNN
-	1    3850 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	850  6700 850  6550
+NoConn ~ 5700 6850
+NoConn ~ 5700 6950
 Wire Wire Line
 	850  6550 1300 6550
 Wire Wire Line
-	3850 6550 3850 6700
-Wire Wire Line
-	3450 6700 3450 6550
-Connection ~ 3450 6550
-Wire Wire Line
-	3450 6550 3850 6550
-Wire Wire Line
-	3050 6700 3050 6550
-Connection ~ 3050 6550
-Wire Wire Line
-	3050 6550 3450 6550
-Wire Wire Line
-	2650 6550 2650 6700
-Connection ~ 2650 6550
-Wire Wire Line
-	2650 6550 3050 6550
-Wire Wire Line
-	2200 6700 2200 6550
-Connection ~ 2200 6550
-Wire Wire Line
-	2200 6550 2450 6550
-Wire Wire Line
-	1750 6700 1750 6550
-Connection ~ 1750 6550
-Wire Wire Line
-	1750 6550 2200 6550
-Wire Wire Line
-	1300 6700 1300 6550
-Connection ~ 1300 6550
-Wire Wire Line
-	1300 6550 1750 6550
+	850  6700 850  6550
 Wire Wire Line
 	850  7000 850  7150
 Wire Wire Line
 	850  7150 1300 7150
 Wire Wire Line
-	3850 7150 3850 7000
+	1300 6550 1750 6550
 Wire Wire Line
-	3450 7000 3450 7150
-Connection ~ 3450 7150
+	1300 6700 1300 6550
 Wire Wire Line
-	3450 7150 3850 7150
+	1300 7000 1300 7150
 Wire Wire Line
-	3050 7000 3050 7150
-Connection ~ 3050 7150
+	1300 7150 1750 7150
 Wire Wire Line
-	3050 7150 3450 7150
+	1750 6550 2200 6550
 Wire Wire Line
-	2650 7000 2650 7150
-Connection ~ 2650 7150
-Wire Wire Line
-	2650 7150 3050 7150
-Wire Wire Line
-	2200 7000 2200 7150
-Connection ~ 2200 7150
-Wire Wire Line
-	2200 7150 2450 7150
+	1750 6700 1750 6550
 Wire Wire Line
 	1750 7000 1750 7150
-Connection ~ 1750 7150
 Wire Wire Line
 	1750 7150 2200 7150
 Wire Wire Line
-	1300 7000 1300 7150
-Connection ~ 1300 7150
+	2200 6550 2450 6550
 Wire Wire Line
-	1300 7150 1750 7150
-$Comp
-L power:GND #PWR?
-U 1 1 5FA8CCDD
-P 2450 7450
-F 0 "#PWR?" H 2450 7200 50  0001 C CNN
-F 1 "GND" H 2455 7277 50  0000 C CNN
-F 2 "" H 2450 7450 50  0001 C CNN
-F 3 "" H 2450 7450 50  0001 C CNN
-	1    2450 7450
-	1    0    0    -1  
-$EndComp
+	2200 6700 2200 6550
 Wire Wire Line
-	2450 7450 2450 7150
-Connection ~ 2450 7150
+	2200 7000 2200 7150
 Wire Wire Line
-	2450 7150 2650 7150
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5FA8DC8D
-P 2450 6200
-F 0 "#PWR?" H 2450 6050 50  0001 C CNN
-F 1 "+3.3V" H 2465 6373 50  0000 C CNN
-F 2 "" H 2450 6200 50  0001 C CNN
-F 3 "" H 2450 6200 50  0001 C CNN
-	1    2450 6200
-	1    0    0    -1  
-$EndComp
+	2200 7150 2450 7150
 Wire Wire Line
 	2450 6200 2450 6550
-Connection ~ 2450 6550
 Wire Wire Line
 	2450 6550 2650 6550
-Wire Notes Line
-	4200 7350 650  7350
-Wire Notes Line
-	650  7350 650  6350
-Wire Notes Line
+Wire Wire Line
+	2450 7150 2650 7150
+Wire Wire Line
+	2450 7450 2450 7150
+Wire Wire Line
+	2650 6550 2650 6700
+Wire Wire Line
+	2650 6550 3050 6550
+Wire Wire Line
+	2650 7000 2650 7150
+Wire Wire Line
+	2650 7150 3050 7150
+Wire Wire Line
+	3050 6550 3450 6550
+Wire Wire Line
+	3050 6700 3050 6550
+Wire Wire Line
+	3050 7000 3050 7150
+Wire Wire Line
+	3050 7150 3450 7150
+Wire Wire Line
+	3450 6550 3850 6550
+Wire Wire Line
+	3450 6700 3450 6550
+Wire Wire Line
+	3450 7000 3450 7150
+Wire Wire Line
+	3450 7150 3850 7150
+Wire Wire Line
+	3850 6550 3850 6700
+Wire Wire Line
+	3850 7150 3850 7000
+Wire Wire Line
+	4900 2100 4900 2150
+Wire Wire Line
+	4900 2500 4900 2450
+Wire Wire Line
+	5100 7400 5100 7350
+Wire Wire Line
+	5100 7400 5200 7400
+Wire Wire Line
+	5100 7450 5100 7400
+Wire Wire Line
+	5150 2100 4900 2100
+Wire Wire Line
+	5200 6150 5200 6100
+Wire Wire Line
+	5200 7400 5200 7350
+Wire Wire Line
+	5550 5500 5550 5650
+Wire Wire Line
+	5550 5650 5650 5650
+Wire Wire Line
+	5650 1800 5750 1800
+Wire Wire Line
+	5650 1900 5650 1800
+Wire Wire Line
+	5650 5500 5650 5650
+Wire Wire Line
+	5650 5650 5750 5650
+Wire Wire Line
+	5700 6450 6150 6450
+Wire Wire Line
+	5700 6650 6150 6650
+Wire Wire Line
+	5700 6750 6150 6750
+Wire Wire Line
+	5750 1800 5850 1800
+Wire Wire Line
+	5750 1900 5750 1800
+Wire Wire Line
+	5750 5650 5750 5500
+Wire Wire Line
+	5750 5650 5850 5650
+Wire Wire Line
+	5750 5800 5750 5650
+Wire Wire Line
+	5850 1700 5850 1800
+Wire Wire Line
+	5850 1800 5850 1900
+Wire Wire Line
+	5850 1800 5950 1800
+Wire Wire Line
+	5850 5500 5850 5650
+Wire Wire Line
+	5850 5650 5950 5650
+Wire Wire Line
+	5950 1800 6050 1800
+Wire Wire Line
+	5950 1900 5950 1800
+Wire Wire Line
+	5950 5650 5950 5500
+Wire Wire Line
+	6050 1800 6050 1900
+Wire Wire Line
+	6450 3400 6550 3400
+Wire Wire Line
+	6550 3400 6800 3400
+Wire Wire Line
+	6550 3500 6450 3500
+Wire Wire Line
+	6800 3500 6550 3500
+Wire Notes Line style solid
 	650  6350 4200 6350
-Wire Notes Line
+Wire Notes Line style solid
+	650  7350 650  6350
+Wire Notes Line style solid
 	4200 6350 4200 7350
-Text Notes 700  6450 0    50   ~ 0
-Decoupling capacitors
+Wire Notes Line style solid
+	4200 7350 650  7350
 $Bitmap
 Pos 10000 1950
 Scale 0.700000
@@ -4635,19 +4500,79 @@ FF 00 00 00 00 00 8E 02 E9 1F 00 00 00 00 C0 51 20 FD 03 00 00 00 00 38 0A A4 7F
 DB 8A E6 A8 1F 0E 3B CB 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Notes 700  6450 0    50   ~ 0
+Decoupling capacitors
+Text Notes 4800 2200 2    50   ~ 0
+Internal pull-up\nSee datasheet page 85
 Text Notes 9050 3600 0    118  ~ 0
 Layout notes:
 Text Notes 9100 4400 0    50   ~ 0
 VDD 100n caps should be placed close to\neach VDD pin. The 5.7u doesn't matter that\nmuch but it should be before the 3.3v trace\nsplits to the VDD pins.\n\nVDDIO2 capacitros should be close to VDDIO2 pin\n\nVDDA capacitors should be close to VDDA pin
+Text Label 4900 2100 0    50   ~ 0
+~{reset}
+Text Label 6150 6450 2    50   ~ 0
+~{reset}
+Text Label 6150 6650 2    50   ~ 0
+swdclk
+Text Label 6150 6750 2    50   ~ 0
+swdio
+Text Label 6800 3400 2    50   ~ 0
+swdio
+Text Label 6800 3500 2    50   ~ 0
+swdclk
 $Comp
-L KTHFS:ARM_JTAG_SWD_10 J?
-U 1 1 5FA9385A
-P 5200 6800
-F 0 "J?" H 4757 6896 50  0000 R CNN
-F 1 "ARM_JTAG_SWD_10" H 4950 7450 50  0000 R CNN
-F 2 "" H 5200 6800 50  0001 C CNN
-F 3 "" H 5200 6800 50  0001 C CNN
-	1    5200 6800
+L power:+3.3V #PWR?
+U 1 1 5FA8DC8D
+P 2450 6200
+F 0 "#PWR?" H 2450 6050 50  0001 C CNN
+F 1 "+3.3V" H 2465 6373 50  0000 C CNN
+F 2 "" H 2450 6200 50  0001 C CNN
+F 3 "" H 2450 6200 50  0001 C CNN
+	1    2450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FAA17F6
+P 5200 6100
+F 0 "#PWR?" H 5200 5950 50  0001 C CNN
+F 1 "+3.3V" H 5215 6273 50  0000 C CNN
+F 2 "" H 5200 6100 50  0001 C CNN
+F 3 "" H 5200 6100 50  0001 C CNN
+	1    5200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA824BC
+P 5850 1700
+F 0 "#PWR?" H 5850 1550 50  0001 C CNN
+F 1 "+3.3V" H 5865 1873 50  0000 C CNN
+F 2 "" H 5850 1700 50  0001 C CNN
+F 3 "" H 5850 1700 50  0001 C CNN
+	1    5850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA8CCDD
+P 2450 7450
+F 0 "#PWR?" H 2450 7200 50  0001 C CNN
+F 1 "GND" H 2455 7277 50  0000 C CNN
+F 2 "" H 2450 7450 50  0001 C CNN
+F 3 "" H 2450 7450 50  0001 C CNN
+	1    2450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA84415
+P 4900 2500
+F 0 "#PWR?" H 4900 2250 50  0001 C CNN
+F 1 "GND" H 4905 2327 50  0000 C CNN
+F 2 "" H 4900 2500 50  0001 C CNN
+F 3 "" H 4900 2500 50  0001 C CNN
+	1    4900 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4661,48 +4586,136 @@ F 3 "" H 5100 7450 50  0001 C CNN
 	1    5100 7450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 7450 5100 7400
-Wire Wire Line
-	5100 7400 5200 7400
-Wire Wire Line
-	5200 7400 5200 7350
-Connection ~ 5100 7400
-Wire Wire Line
-	5100 7400 5100 7350
-NoConn ~ 5700 6950
 $Comp
-L power:+3.3V #PWR?
-U 1 1 5FAA17F6
-P 5200 6100
-F 0 "#PWR?" H 5200 5950 50  0001 C CNN
-F 1 "+3.3V" H 5215 6273 50  0000 C CNN
-F 2 "" H 5200 6100 50  0001 C CNN
-F 3 "" H 5200 6100 50  0001 C CNN
-	1    5200 6100
+L power:GND #PWR?
+U 1 1 5FA838BB
+P 5750 5800
+F 0 "#PWR?" H 5750 5550 50  0001 C CNN
+F 1 "GND" H 5755 5627 50  0000 C CNN
+F 2 "" H 5750 5800 50  0001 C CNN
+F 3 "" H 5750 5800 50  0001 C CNN
+	1    5750 5800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 6150 5200 6100
-Wire Wire Line
-	5700 6450 6150 6450
-Wire Wire Line
-	5700 6650 6150 6650
-Wire Wire Line
-	5700 6750 6150 6750
-NoConn ~ 5700 6850
-Text Label 6150 6450 2    50   ~ 0
-~reset
-Text Label 6150 6650 2    50   ~ 0
-swdclk
-Text Label 6150 6750 2    50   ~ 0
-swdio
-Text Label 6800 3400 2    50   ~ 0
-swdio
-Wire Wire Line
-	6450 3400 6800 3400
-Text Label 6800 3500 2    50   ~ 0
-swdclk
-Wire Wire Line
-	6800 3500 6450 3500
+$Comp
+L Device:C C?
+U 1 1 5FA85099
+P 850 6850
+F 0 "C?" H 965 6896 50  0000 L CNN
+F 1 "100n" H 965 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 888 6700 50  0001 C CNN
+F 3 "~" H 850 6850 50  0001 C CNN
+	1    850  6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA852CC
+P 1300 6850
+F 0 "C?" H 1415 6896 50  0000 L CNN
+F 1 "100n" H 1415 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1338 6700 50  0001 C CNN
+F 3 "~" H 1300 6850 50  0001 C CNN
+	1    1300 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA85710
+P 1750 6850
+F 0 "C?" H 1865 6896 50  0000 L CNN
+F 1 "100n" H 1865 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 6700 50  0001 C CNN
+F 3 "~" H 1750 6850 50  0001 C CNN
+	1    1750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA85976
+P 2200 6850
+F 0 "C?" H 2315 6896 50  0000 L CNN
+F 1 "100n" H 2315 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 6700 50  0001 C CNN
+F 3 "~" H 2200 6850 50  0001 C CNN
+	1    2200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA85C5E
+P 2650 6850
+F 0 "C?" H 2765 6896 50  0000 L CNN
+F 1 "10n" H 2765 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2688 6700 50  0001 C CNN
+F 3 "~" H 2650 6850 50  0001 C CNN
+	1    2650 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA85DE3
+P 3050 6850
+F 0 "C?" H 3165 6896 50  0000 L CNN
+F 1 "4.7u" H 3165 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3088 6700 50  0001 C CNN
+F 3 "~" H 3050 6850 50  0001 C CNN
+	1    3050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA8600E
+P 3450 6850
+F 0 "C?" H 3565 6896 50  0000 L CNN
+F 1 "4.7u" H 3565 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 6700 50  0001 C CNN
+F 3 "~" H 3450 6850 50  0001 C CNN
+	1    3450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA862DD
+P 3850 6850
+F 0 "C?" H 3965 6896 50  0000 L CNN
+F 1 "1u" H 3965 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3888 6700 50  0001 C CNN
+F 3 "~" H 3850 6850 50  0001 C CNN
+	1    3850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FA84139
+P 4900 2300
+F 0 "C?" H 5015 2346 50  0000 L CNN
+F 1 "100n" H 5015 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 2150 50  0001 C CNN
+F 3 "~" H 4900 2300 50  0001 C CNN
+	1    4900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KTHFS:ARM_JTAG_SWD_10 J?
+U 1 1 5FA9385A
+P 5200 6800
+F 0 "J?" H 4757 6896 50  0000 R CNN
+F 1 "ARM_JTAG_SWD_10" H 4950 7450 50  0000 R CNN
+F 2 "" H 5200 6800 50  0001 C CNN
+F 3 "" H 5200 6800 50  0001 C CNN
+	1    5200 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_ST_STM32F0:STM32F091RCTx U?
+U 1 1 5FA7F7AC
+P 5850 3700
+F 0 "U?" H 5800 1811 50  0000 C CNN
+F 1 "STM32F091RCTx" H 5800 1720 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5250 2000 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf" H 5850 3700 50  0001 C CNN
+	1    5850 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
