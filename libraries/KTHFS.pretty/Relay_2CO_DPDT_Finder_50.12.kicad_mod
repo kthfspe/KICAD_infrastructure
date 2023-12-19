@@ -79,7 +79,7 @@
   (pad "24" thru_hole circle (at 25 7.5) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 83f11629-a934-4aaf-8fb9-2f553ea1485c))
   (pad "A1" thru_hole rect (at 0 0) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp a676729b-df01-4ef2-87ff-f489d5965dbf))
   (pad "A2" thru_hole circle (at 0 7.5) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 23f486b3-bc0d-4b12-a084-a2d71cc97b54))
-  (model "${KTHFS_LIB}/3dmodels/Relay_DPDT_Finder_50.12.wrl"
+  (model "${KICAD_INFRASTRUCTURE}/3dmodels/Relay_DPDT_Finder_50.12.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
