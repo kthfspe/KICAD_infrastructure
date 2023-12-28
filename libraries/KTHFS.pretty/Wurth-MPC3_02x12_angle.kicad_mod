@@ -51,7 +51,7 @@
   (pad "22" thru_hole circle (at -27 -3) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 7cb807ab-01dd-4894-9562-bffa41b79ab1))
   (pad "23" thru_hole circle (at -30 -3) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 4eecf0e6-ddf7-458b-87ae-cba786832895))
   (pad "24" thru_hole circle (at -33 -3) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp af4d20da-f4d9-4c03-998c-61745c1c4880))
-  (model "/home/tore/Downloads/66202421022 (rev1).stp"
+  (model "${KTHFS_LIB}/3dmodels/Wurth-MPC3_02x12_angle.stp"
     (offset (xyz -16.5 -4 4.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))
