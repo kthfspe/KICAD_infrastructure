@@ -23,9 +23,9 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp d8d7d6fe-70c9-43c5-92dc-a0c3b65966cd))
   (fp_arc (start 3 1) (mid 2.707107 1.707107) (end 2 2)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 975642a7-c1e3-4358-97ae-51783e32f98b))
-  (pad "1" thru_hole circle (at 1.75 0.5) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1fee804c-5496-45db-ac4e-2e4b9ca24312))
+  (pad "1" thru_hole circle (at -1.75 0.5) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3d89e29f-86fe-4eb9-bf75-875126af6832))
   (pad "2" thru_hole circle (at 0 -1.45) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 5cfa9f93-2e94-46bc-846f-b28c1aa29d55))
-  (pad "3" thru_hole circle (at -1.75 0.5) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3d89e29f-86fe-4eb9-bf75-875126af6832))
+  (pad "3" thru_hole circle (at 1.75 0.5) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1fee804c-5496-45db-ac4e-2e4b9ca24312))
   (pad "4" thru_hole circle (at -6.25 0) (size 3.4 3.4) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 39d65ffe-052e-4163-ab9e-d538b0f8ad1d))
   (pad "4" thru_hole circle (at 6.25 0) (size 3.4 3.4) (drill 3) (layers "*.Cu" "*.Mask") (tstamp ebd88faa-a7e8-4df0-a617-a8ce43f75cf9))
   (model "${KTHFS_LIB}/3dmodels/Phoenix-M8_3pin_vertical.stp"
