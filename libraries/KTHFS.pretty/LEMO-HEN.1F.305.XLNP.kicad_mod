@@ -46,4 +46,9 @@
   (pad "8" thru_hole circle (at 3.81 3.81) (size 1.4986 1.4986) (drill 0.99822) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 82b1f112-2b92-4bb3-b213-addab511ee30))
   (pad "9" thru_hole circle (at 3.81 -3.81) (size 1.4986 1.4986) (drill 0.99822) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp dbddd9ee-d941-45a8-b531-80d54ac90100))
   (pad "10" thru_hole circle (at -3.81 -3.81) (size 1.4986 1.4986) (drill 0.99822) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp b7bda6a0-d1f3-4d53-bd37-c39dd5b12fd2))
+  (model "${KICAD_INFRASTRUCTURE}/libraries/3dmodels/HEN.1F.305.stp"
+    (offset (xyz 0 0 -19))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -90 0))
+  )
 )
