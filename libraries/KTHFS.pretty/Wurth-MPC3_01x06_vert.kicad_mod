@@ -33,8 +33,8 @@
   (pad "4" thru_hole circle (at -9 0) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 14c62697-aa22-44a3-a3d1-121e71a0cb7d))
   (pad "5" thru_hole circle (at -12 0) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 210441ca-2e1b-4469-a0f6-a08c9b793bb8))
   (pad "6" thru_hole circle (at -15 0) (size 1.8 1.8) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 172a83a3-67cc-4b11-84e0-00628c54acd5))
-  (model "${KTHFS_LIB}/3dmodels/Wurth-MPC3_01x06_vert.stp"
-    (offset (xyz -7.5 -0.254 5))
+  (model "${KICAD_INFRASTRUCTURE}/libraries/3dmodels/Wurth-MPC3_01x06_vert.stp"
+    (offset (xyz -7.5 -0.25 3.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
   )
