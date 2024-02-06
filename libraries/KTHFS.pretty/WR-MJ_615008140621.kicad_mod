@@ -63,4 +63,9 @@
     (solder_mask_margin 0.102) (tstamp 792c1288-ebd4-43fc-a29d-c4e8f9d2ecc8))
   (pad "S2" thru_hole circle (at 8.125 -1.015) (size 2.4 2.4) (drill 1.6) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 597b7b7d-4657-46b6-8546-b2d25b559bdd))
+  (model "${KICAD_INFRASTRUCTURE}/libraries/3dmodels/WR-MJ_615008140621.step"
+    (offset (xyz 0 0 6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
