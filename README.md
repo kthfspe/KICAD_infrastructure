@@ -34,7 +34,7 @@ To properly set up the libraries the follwing instructions are recommended.
 11. Add a new library
 ![asdg](https://i.imgur.com/06K1axp.png)
 
-12. Navigate to the cloned repository, then libraries and select ``KTHFS.lib``. After finishing the path should get automatically replaced by ``${KICAD_INFRASTRUCTURE}`` as seen in this picture. If this does not happen, make sure the previous steps were followed correctly or ask for help.
+12. **NOTE: ``KTHFS.kicad_sym``, not ```KTHFS.lib`` as in the screenshot** Select Navigate to the cloned repository, then libraries and select ``KTHFS.kicad_sym``. After finishing the path should get automatically replaced by ``${KICAD_INFRASTRUCTURE}`` as seen in this picture. If this does not happen, make sure the previous steps were followed correctly or ask for help.
 ![agfags](https://i.imgur.com/gImnlCl.png)
 
 13. Repeat the same process this time with the PCB editor
