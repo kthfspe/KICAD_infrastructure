@@ -1838,20 +1838,6 @@
         (number "3" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "D_Schottky_x2_Serial_AKC_1_1"
-      (polyline
-        (pts
-          (xy 0 0)
-          (xy -2.54 0)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 0 0) (length 2.54)
-        (name "common" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
   )
   (symbol "GNDiso" (power) (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (at 0 2.54 0)
