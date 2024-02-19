@@ -1,4 +1,4 @@
-(footprint "SOP65P490X110-9N" (version 20221018) (generator pcbnew)
+(footprint "TPS92611QDGNRQ1" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0.155 -2.362) (layer "F.SilkS")
@@ -60,4 +60,9 @@
     (solder_mask_margin 0.102) (tstamp d7d6c4ff-a0d9-420b-878f-ce6ef684a937))
   (pad "9" smd rect (at 0 0) (size 1.846 2.15) (layers "F.Cu" "F.Mask")
     (solder_mask_margin 0.102) (tstamp fc8ec67b-c359-4c27-85e1-cf07c55da8d7))
+  (model "${KICAD_INFRASTRUCTURE}/libraries/3dmodels/TPS92611QDGNRQ1.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
