@@ -1,0 +1,25 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 12479c5d-3e58-42aa-bd6a-770be595c2eb)
+
+  (paper "A4")
+
+  (title_block
+    (title "Empty Project Template")
+    (date "2024-03-19")
+    (rev "1.0")
+    (company "KTH Formula Student")
+    (comment 1 "DeV18")
+    (comment 2 "Emil Nordahl")
+    (comment 3 "emnorda@kth.se")
+    (comment 4 "Some comment here \\n\\nBe informative!")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
