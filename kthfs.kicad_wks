@@ -29,7 +29,7 @@
   (line (name "segm10:Line") (start 90 6) (end 90 2))
   (tbtext "Car: ${COMMENT1}" (name "text15:Text") (pos 24.002 9.5002) (font (size 2 2) bold))
   (line (name "segm11:Line") (start 26 12.5) (end 26 2))
-  (bitmap (name "") (pos 21.439 26.327) (scale 0.5454545455)
+  (bitmap (name "") (pos 21.439 26.327) (scale 0.6)
   (pngdata
     (data "89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 37 00 00 00 DB 08 06 00 00 00 91 31 B0 ")
     (data "7E 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 20 00 49 44 41 54 78 9C ED BD 4D 72 A3 ")
