@@ -10028,6 +10028,469 @@
 			)
 		)
 	)
+	(symbol "LTC3114MPFE-1_PBF"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.414 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTC3114MPFE-1_PBF"
+			(at 6.35 15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "KTHFS:SOP65P640X110-17N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Buck-Boost Switching Regulator IC Positive Adjustable 2.7V 1 Output 1A 16-TSSOP (0.173, 4.40mm Width) Exposed Pad\n                        \n"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-16 Linear Technology"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTC3114MPFE-1%23PBF/Analog+Devices/view-part/?ref=eda"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTC3114MPFE-1%23PBF/Analog+Devices/view-part/?ref=snap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LTC3114MPFE-1#PBF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "LINEAR TECHNOLOGY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "LTC3114MPFE-1_PBF_0_0"
+			(rectangle
+				(start -10.16 15.24)
+				(end 10.16 -16.51)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 3.81 -19.05 90)
+				(length 2.54) hide
+				(name "PGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "PLDO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 8.89 180)
+				(length 2.54)
+				(name "BST2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 8.89 0)
+				(length 2.54)
+				(name "BST1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "PVIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 17.78 270)
+				(length 2.54)
+				(name "SW1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -12.7 0)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 -19.05 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 17.78 270)
+				(length 2.54)
+				(name "SW2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "PVOUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "RUN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "PROG"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "VC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -19.05 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "LDO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LTC3879"
 		(pin_names
 			(offset 1.016)
@@ -12641,7 +13104,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 22.86 10.16 0)
+			(at 9.398 -2.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12649,7 +13112,7 @@
 			)
 		)
 		(property "Value" "MP7200GLE-P"
-			(at 22.86 7.62 0)
+			(at 16.764 -5.334 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12677,7 +13140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 5.08 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,8 +13168,8 @@
 		)
 		(symbol "MP7200GLE-P_0_1"
 			(pin unspecified line
-				(at 0 -33.02 0)
-				(length 7.62)
+				(at 5.08 -33.02 0)
+				(length 2.54)
 				(name "DUTY"
 					(effects
 						(font
@@ -12723,8 +13186,8 @@
 				)
 			)
 			(pin output line
-				(at 0 -26.67 0)
-				(length 7.62)
+				(at 5.08 -26.67 0)
+				(length 2.54)
 				(name "FAULT"
 					(effects
 						(font
@@ -12741,8 +13204,8 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -49.53 90)
-				(length 7.62) hide
+				(at 25.4 -44.45 90)
+				(length 2.54) hide
 				(name "PGND"
 					(effects
 						(font
@@ -12759,8 +13222,8 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -49.53 90)
-				(length 7.62) hide
+				(at 25.4 -44.45 90)
+				(length 2.54) hide
 				(name "PGND"
 					(effects
 						(font
@@ -12777,8 +13240,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
-				(length 7.62) hide
+				(at 5.08 0 0)
+				(length 2.54) hide
 				(name "VIN"
 					(effects
 						(font
@@ -12795,8 +13258,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -11.43 0)
-				(length 7.62)
+				(at 5.08 -11.43 0)
+				(length 2.54)
 				(name "INGND"
 					(effects
 						(font
@@ -12813,8 +13276,8 @@
 				)
 			)
 			(pin power_in line
-				(at 19.05 -49.53 90)
-				(length 7.62)
+				(at 19.05 -44.45 90)
+				(length 2.54)
 				(name "AGND"
 					(effects
 						(font
@@ -12831,8 +13294,8 @@
 				)
 			)
 			(pin power_in line
-				(at 39.37 -33.02 180)
-				(length 7.62)
+				(at 34.29 -33.02 180)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -12849,8 +13312,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 39.37 -19.05 180)
-				(length 7.62)
+				(at 34.29 -19.05 180)
+				(length 2.54)
 				(name "IREF"
 					(effects
 						(font
@@ -12867,8 +13330,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 39.37 -26.67 180)
-				(length 7.62)
+				(at 34.29 -26.67 180)
+				(length 2.54)
 				(name "ISET"
 					(effects
 						(font
@@ -12885,8 +13348,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 -49.53 90)
-				(length 7.62)
+				(at 12.7 -44.45 90)
+				(length 2.54)
 				(name "NTC"
 					(effects
 						(font
@@ -12903,8 +13366,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -19.05 0)
-				(length 7.62)
+				(at 5.08 -19.05 0)
+				(length 2.54)
 				(name "EN/DIM"
 					(effects
 						(font
@@ -12921,8 +13384,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
-				(length 7.62)
+				(at 5.08 0 0)
+				(length 2.54)
 				(name "VIN"
 					(effects
 						(font
@@ -12939,8 +13402,8 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -49.53 90)
-				(length 7.62)
+				(at 25.4 -44.45 90)
+				(length 2.54)
 				(name "PGND"
 					(effects
 						(font
@@ -12957,8 +13420,8 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -49.53 90)
-				(length 7.62) hide
+				(at 25.4 -44.45 90)
+				(length 2.54) hide
 				(name "PGND"
 					(effects
 						(font
@@ -12975,8 +13438,8 @@
 				)
 			)
 			(pin power_in line
-				(at 39.37 -11.43 180)
-				(length 7.62)
+				(at 34.29 0 180)
+				(length 2.54)
 				(name "BST"
 					(effects
 						(font
@@ -12993,8 +13456,8 @@
 				)
 			)
 			(pin output line
-				(at 39.37 0 180)
-				(length 7.62) hide
+				(at 34.29 -11.43 180)
+				(length 2.54) hide
 				(name "SW"
 					(effects
 						(font
@@ -13011,8 +13474,8 @@
 				)
 			)
 			(pin output line
-				(at 39.37 0 180)
-				(length 7.62)
+				(at 34.29 -11.43 180)
+				(length 2.54)
 				(name "SW"
 					(effects
 						(font
@@ -13042,8 +13505,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 39.37 -35.56 180)
-				(length 7.62) hide
+				(at 34.29 -35.56 180)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
