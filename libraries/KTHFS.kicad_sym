@@ -10418,7 +10418,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -10.16 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "VC"
 					(effects
@@ -10436,7 +10436,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -7.62 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -16383,7 +16383,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -10.16 90)
+				(at -3.81 -11.43 90)
 				(length 5.08)
 				(name "GND"
 					(effects
