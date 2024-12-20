@@ -1,0 +1,448 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9805bc69-1175-4e73-a53f-b71c343de45b")
+	(paper "A4")
+	(title_block
+		(title "Schematic Blocks")
+		(date "2019-12-05")
+		(rev "1.0")
+		(company "KTH Formula Student")
+		(comment 1 " - ")
+		(comment 2 "Jordi Altayó")
+		(comment 3 "jordiag@kth.se")
+		(comment 4 "Top page")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 173.99 27.94) (xy 193.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b1f318-4814-4ef6-b8d3-aa3c9b2b270e")
+	)
+	(polyline
+		(pts
+			(xy 124.46 38.1) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373daba8-d71d-48a9-ac78-a397a89e1f8f")
+	)
+	(polyline
+		(pts
+			(xy 52.07 29.21) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547b6515-0426-4fbd-a81f-59abb7f62aba")
+	)
+	(polyline
+		(pts
+			(xy 214.63 27.94) (xy 233.68 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa62e5f-d97d-4be1-9118-a12918b8deac")
+	)
+	(polyline
+		(pts
+			(xy 166.37 38.1) (xy 166.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979453ca-20f0-4a97-9adf-eaa72e69ba48")
+	)
+	(polyline
+		(pts
+			(xy 92.71 29.21) (xy 111.76 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88fc66f-a1de-4d5b-a1fe-94d411ed9c58")
+	)
+	(polyline
+		(pts
+			(xy 248.92 38.1) (xy 248.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea30674b-8347-4a37-9dcf-81cc5a4ee38f")
+	)
+	(polyline
+		(pts
+			(xy 87.63 38.1) (xy 87.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec46d675-815a-48a7-bee6-83986087dd09")
+	)
+	(polyline
+		(pts
+			(xy 207.01 38.1) (xy 207.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc03915d-0c61-45d1-a1fd-0ef07e4b7e2f")
+	)
+	(polyline
+		(pts
+			(xy 45.72 38.1) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1acfdf-e5b4-40dd-95cc-e74cc8ccb749")
+	)
+	(polyline
+		(pts
+			(xy 133.35 27.94) (xy 152.4 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2dffb3-f1dd-47dd-8a69-0cbe32a3c912")
+	)
+	(text "21.6 x 16.5"
+		(exclude_from_sim no)
+		(at 15.24 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bd767c7-b337-4bf5-8093-c90dd26e3f84")
+	)
+	(sheet
+		(at 30.48 21.59)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005de839b2")
+		(property "Sheetname" "24 to 5 V supply"
+			(at 30.48 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "24_to_5_supply.kicad_sch"
+			(at 30.48 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blocks"
+				(path "/9805bc69-1175-4e73-a53f-b71c343de45b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 21.59)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005de839fc")
+		(property "Sheetname" "5 to 3.3 V supply"
+			(at 71.12 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5_to_3.kicad_sch"
+			(at 71.12 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blocks"
+				(path "/9805bc69-1175-4e73-a53f-b71c343de45b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 21.59)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005de83a8b")
+		(property "Sheetname" "CAN transceiver 3.3 V"
+			(at 152.4 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_transceiver_3.3.kicad_sch"
+			(at 152.4 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blocks"
+				(path "/9805bc69-1175-4e73-a53f-b71c343de45b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 21.59)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005de83b88")
+		(property "Sheetname" "Wurth LED driver"
+			(at 193.04 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Wurth_LED_driver.kicad_sch"
+			(at 193.04 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blocks"
+				(path "/9805bc69-1175-4e73-a53f-b71c343de45b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 21.59)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005de842da")
+		(property "Sheetname" "Current signaling receiver"
+			(at 233.68 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_signaling_receiver.kicad_sch"
+			(at 233.68 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blocks"
+				(path "/9805bc69-1175-4e73-a53f-b71c343de45b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 49.53)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005de84438")
+		(property "Sheetname" "Current signaling transmitter"
+			(at 30.48 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_signaling_transmitter.kicad_sch"
+			(at 30.48 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blocks"
+				(path "/9805bc69-1175-4e73-a53f-b71c343de45b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 21.59)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005deb58f1")
+		(property "Sheetname" "CAN Transciever 5 V"
+			(at 111.76 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_transciever_5.kicad_sch"
+			(at 111.76 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blocks"
+				(path "/9805bc69-1175-4e73-a53f-b71c343de45b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 49.53)
+		(size 21.59 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005fa7effd")
+		(property "Sheetname" "STM32F091"
+			(at 71.12 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32F091.kicad_sch"
+			(at 71.12 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "blocks"
+				(path "/9805bc69-1175-4e73-a53f-b71c343de45b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

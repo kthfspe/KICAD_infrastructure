@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ba450458-915f-4c8d-a191-44a016e84839")
+	(paper "A4")
+	(title_block
+		(title "Schematic Blocks")
+		(date "2019-12-05")
+		(rev "1.0")
+		(company "KTH Formula Student")
+		(comment 1 " - ")
+		(comment 2 "Jordi Altayó")
+		(comment 3 "jordiag@kth.se")
+		(comment 4 "Top page")
+	)
+	(lib_symbols)
+)
