@@ -8,7 +8,7 @@
 	(property "Reference" "IC**"
 		(at 0.37 -5.77 0)
 		(layer "F.SilkS")
-		(uuid "a871d1bb-0607-4e98-a889-5e170ba199f7")
+		(uuid "a59b8396-14eb-4c12-abf5-5803ae4b36e5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c8ac91a4-1a5f-49a2-a023-4ca5049daa30")
+		(uuid "3e427193-1dac-45d8-9a8f-8ef3040cd338")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e6a63e8-14d7-4b65-95d5-f90e1ba18d05")
+		(uuid "8be160a3-5cf2-4a1c-9145-6a794c1867ec")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c7024ba4-6eaa-4eea-ba61-772ea395302d")
+		(uuid "c15d6dea-bbf7-40c0-9b2e-7e586f2eb463")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -113,66 +113,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "d1a6d615-59a3-47d6-bb5d-bef7ecb897bf")
-	)
-	(fp_line
-		(start -4.38 -4.445)
-		(end -4.38 4.445)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "46770d68-449f-4356-aece-5029dd69a53a")
-	)
-	(fp_line
-		(start -4.38 4.445)
-		(end 6.03 4.445)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "110d0743-eed4-4c19-bf67-2ad4de15dc4e")
-	)
-	(fp_line
-		(start -0.5 0)
-		(end 0.5 0)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "7bd63456-761c-4024-8081-d09ba6e75ed7")
-	)
-	(fp_line
-		(start 0 0.5)
-		(end 0 -0.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b4188031-9a20-4f39-8a53-32e2cece6c72")
-	)
-	(fp_line
-		(start 6.03 -4.445)
-		(end -4.38 -4.445)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "168984b2-1b09-49e7-a2dc-378768e15f81")
-	)
-	(fp_line
-		(start 6.03 4.445)
-		(end 6.03 -4.445)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e50f9ecd-9804-4dc4-9339-bd3da2ad9ead")
 	)
 	(fp_line
 		(start 7.85 -4.75)
@@ -314,7 +254,7 @@
 		(uuid "ee27bc48-1b76-4069-9ed7-36a965c53f5a")
 	)
 	(pad "4" smd rect
-		(at 4.15 0)
+		(at 4.15 -0.03)
 		(size 6.85 8.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7a29290c-fda4-471f-8ad7-5a1ae0b51d33")
