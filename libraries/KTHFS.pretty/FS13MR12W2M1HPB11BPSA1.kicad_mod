@@ -75,7 +75,7 @@
 	)
 	(fp_line
 		(start -4.35 -40)
-		(end 19.6 -40)
+		(end 28.4 -40)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -95,7 +95,7 @@
 	)
 	(fp_line
 		(start 15.8 -47.4)
-		(end 22.4 -47.4)
+		(end 32.2 -47.4)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -162,16 +162,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "3684b584-45d2-4d57-b276-69347c8fc888")
-	)
-	(fp_line
-		(start 25.8 -47.4)
-		(end 32.2 -47.4)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5a64c4f4-b9de-4bff-9578-b2a1023eeeff")
 	)
 	(fp_line
 		(start 26.2 15.4)
@@ -439,13 +429,6 @@
 		(drill 2.8)
 		(layers "*.Cu" "*.Mask")
 		(uuid "bd63af86-81a1-4690-be8d-cead3e3e2dfb")
-	)
-	(pad "" np_thru_hole circle
-		(at 24 -42.5)
-		(size 9 9)
-		(drill 9)
-		(layers "*.Cu" "*.Mask")
-		(uuid "3538ca46-d1a9-4091-a47f-8082defffeda")
 	)
 	(pad "" np_thru_hole circle
 		(at 24 10.5)

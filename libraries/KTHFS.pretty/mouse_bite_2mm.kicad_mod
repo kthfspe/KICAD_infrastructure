@@ -1,7 +1,7 @@
 (footprint "mouse_bite_2mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "mouse-bite-2mm-slot"
 		(at 0 -2 0)
@@ -24,18 +24,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.2)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2dc07155-828a-43cb-91c0-e59e4c43c612")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -69,7 +57,7 @@
 		(mid -1 0)
 		(end -2 1)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -80,7 +68,7 @@
 		(mid 1 0)
 		(end 2 -1)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -128,4 +116,5 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "c1e67776-a2e4-409e-9dbc-1cbb841fd0a3")
 	)
+	(embedded_fonts no)
 )
