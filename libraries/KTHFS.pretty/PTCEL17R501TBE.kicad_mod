@@ -1,0 +1,267 @@
+(footprint "PTCEL17R501TBE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PTCEL17R501TBE-1")
+	(tags "Thermistor")
+	(property "Reference" "RT**"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(uuid "e740cffa-b8ca-403e-8ef5-bf921067065c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PTCEL17R501TBE"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b5d02a03-ec9f-4828-a98b-2417c9d67f5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1973757d-4b4a-4f9a-8506-c228bf4ddb0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9bf532c-8ad6-4d26-bb68-3ffc16243609")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.7 0)
+		(end -6.7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "757a76d5-55d4-4e5b-b633-6ec8c363addf")
+	)
+	(fp_line
+		(start -6.7 0)
+		(end -6.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe5cc956-79f9-4244-a088-ef04f0c9ea21")
+	)
+	(fp_line
+		(start -6.6 0)
+		(end -6.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecf1aebb-adde-4edd-bbb6-d0849fcdcdbf")
+	)
+	(fp_line
+		(start -6 -3.75)
+		(end 11 -3.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b3999fa-179f-4c4f-a876-7256101d5bdb")
+	)
+	(fp_line
+		(start -6 3.75)
+		(end -6 -3.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cea929a1-ae41-45cc-ab16-e283ec628ea7")
+	)
+	(fp_line
+		(start 11 -3.75)
+		(end 11 3.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0dd3465-f312-400d-81e5-6b6bc0ea16f2")
+	)
+	(fp_line
+		(start 11 3.75)
+		(end -6 3.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a74b840a-a532-46bb-89d3-9e7cf602de34")
+	)
+	(fp_arc
+		(start -6.7 0)
+		(mid -6.65 -0.05)
+		(end -6.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a9b79a6-8eb1-4b96-9678-c2f4a7d035f3")
+	)
+	(fp_arc
+		(start -6.6 0)
+		(mid -6.65 0.05)
+		(end -6.7 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cef55810-66fe-437b-9c6d-ac7b19047ccb")
+	)
+	(fp_line
+		(start -7 -4.75)
+		(end 12 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ede75b4-ae40-4d0c-b1ac-ea02974d5798")
+	)
+	(fp_line
+		(start -7 4.75)
+		(end -7 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1b949dc-51de-45e8-a422-ef7cd1fae1d1")
+	)
+	(fp_line
+		(start 12 -4.75)
+		(end 12 4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f09f56d2-cf69-4b03-a7c0-814420c6cf2e")
+	)
+	(fp_line
+		(start 12 4.75)
+		(end -7 4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cb3c929-91ee-44ca-bf8d-37f7cc4c4383")
+	)
+	(fp_line
+		(start -6 -3.75)
+		(end 11 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c400330a-a783-4fb3-9091-1b1edd3fb18f")
+	)
+	(fp_line
+		(start -6 3.75)
+		(end -6 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ef4b045-b49e-4f90-9029-88cea5fd029c")
+	)
+	(fp_line
+		(start 11 -3.75)
+		(end 11 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f658481-d472-47b1-a1fd-e5a22c6d27bd")
+	)
+	(fp_line
+		(start 11 3.75)
+		(end -6 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b32b7867-ade2-4ce5-91c0-c8aa351840dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "6ac43a23-6598-4440-acc5-fdacb5ebbfd8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f29bd24-f584-457f-8227-4d930472171f")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7418a52-f145-4766-a93a-8e597bcb4d2f")
+	)
+	(embedded_fonts no)
+	(model "${KTHFS_LIB}/3dmodels/PTCEL17R501TBE.stp"
+		(offset
+			(xyz 2.5 0 0.19)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
