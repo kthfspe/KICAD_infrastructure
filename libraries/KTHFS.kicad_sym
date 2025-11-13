@@ -25120,7 +25120,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -3.556 1.27 0)
+			(at -3.302 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25128,7 +25128,7 @@
 			)
 		)
 		(property "Value" "TPS3850"
-			(at -3.556 -23.368 0)
+			(at -3.302 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25165,7 +25165,7 @@
 		(symbol "TPS3850_1_1"
 			(rectangle
 				(start -11.43 0)
-				(end 5.08 -21.59)
+				(end 5.08 -22.86)
 				(stroke
 					(width 0)
 					(type solid)
@@ -25265,6 +25265,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -25.4 90)
+				(length 2.54)
+				(name "ET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
