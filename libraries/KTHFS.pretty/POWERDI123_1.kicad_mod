@@ -1,0 +1,162 @@
+(footprint "POWERDI123_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PowerDI123_1")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at -0.428 -1.851 0)
+		(layer "F.SilkS")
+		(uuid "f97198fd-e392-4ade-98e9-b9685d3e3cc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "POWERDI123_1"
+		(at -0.428 -1.851 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "866367ca-c796-431c-a55a-12d539146746")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c6a3a4f-f765-42f7-8659-c0b4d70f0806")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f611c91-55cb-4f9f-8043-66fe1bf6d5ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.5 -0.965)
+		(end -1.5 -0.965)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbcaf11e-ce7e-4138-953f-83761b063f9c")
+	)
+	(fp_line
+		(start 1.5 0.965)
+		(end -1.5 0.965)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f45c7f2-c469-48eb-84f1-be0482c94917")
+	)
+	(fp_circle
+		(center 2.515 0.131)
+		(end 2.515 0.17749)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2420770a-9ff0-45e3-b453-afc37c6581f0")
+	)
+	(fp_line
+		(start -1.5 -0.965)
+		(end 1.5 -0.965)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45f87d9d-c9ed-48dd-9fe2-14f2e7f222af")
+	)
+	(fp_line
+		(start -1.5 0.965)
+		(end -1.5 -0.965)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b4d9889-7bb6-49fd-a2b4-3b77bf29f36e")
+	)
+	(fp_line
+		(start 1.5 -0.965)
+		(end 1.5 0.965)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc519be2-1089-4547-ad02-4eca8c1a9747")
+	)
+	(fp_line
+		(start 1.5 0.965)
+		(end -1.5 0.965)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b747ffcc-cac1-4cc7-8487-5608d9b8ea3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.428 -1.851 0)
+		(layer "F.Fab")
+		(uuid "7e5898b9-54a8-4e7a-bb36-5b1fff6679dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.825 0 90)
+		(size 1.5 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f945833-9692-428d-86aa-e9a6b4368f07")
+	)
+	(pad "2" smd rect
+		(at -1.55 0)
+		(size 1.05 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8110f7d1-9ed6-4967-91f3-64ae9ab01f2c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_INFRASTRUCTURE}/libraries/3dmodels/SBR1U200P1-7.stp"
+		(offset
+			(xyz 1.460000016 0.8899999723 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -90)
+		)
+	)
+)

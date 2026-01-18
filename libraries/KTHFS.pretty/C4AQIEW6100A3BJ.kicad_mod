@@ -1,0 +1,231 @@
+(footprint "C4AQIEW6100A3BJ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C4AQIEW6100A3BJ-4")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 26.25 10.15 0)
+		(layer "F.SilkS")
+		(uuid "0fd094b9-f50a-4441-86de-da350886c97e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "C4AQIEW6100A3BJ"
+		(at 26.25 10.15 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9fe37c73-5343-4fe5-8d8b-d5f365dbfcad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e96ae34-6b29-4d38-8f3d-31df2f098096")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a5da65d-8f80-464b-9d94-bde8e5c86eea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -12.35)
+		(end 55 -12.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbab73b3-f398-48d7-a0d7-3db42752d424")
+	)
+	(fp_line
+		(start -2.5 32.65)
+		(end -2.5 -12.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ef461a2-87d0-4268-a940-e35d59df5276")
+	)
+	(fp_line
+		(start 55 -12.35)
+		(end 55 32.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "185cd142-6832-410a-b422-4c5a498dcad0")
+	)
+	(fp_line
+		(start 55 32.65)
+		(end -2.5 32.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71177aab-e537-4ebf-9e82-2f785ef9fdf0")
+	)
+	(fp_line
+		(start -3.5 -13.35)
+		(end 56 -13.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab3db6e3-f32a-497d-9c99-2099aaf7f621")
+	)
+	(fp_line
+		(start -3.5 33.65)
+		(end -3.5 -13.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7075313-41d3-4483-b278-b3fa6c02fd0e")
+	)
+	(fp_line
+		(start 56 -13.35)
+		(end 56 33.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8a51e61-d346-4090-aab2-53f85f8b3df0")
+	)
+	(fp_line
+		(start 56 33.65)
+		(end -3.5 33.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "920ef9ed-4290-4ca1-9139-84489131e777")
+	)
+	(fp_line
+		(start -2.5 -12.35)
+		(end 55 -12.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b54fcff1-e302-45da-aeab-28f4c67b5fe9")
+	)
+	(fp_line
+		(start -2.5 32.65)
+		(end -2.5 -12.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ec48cab-727d-4957-84a4-6b6a97057f7e")
+	)
+	(fp_line
+		(start 55 -12.35)
+		(end 55 32.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e85fe381-73e9-44e2-93a5-7d4c6542b99a")
+	)
+	(fp_line
+		(start 55 32.65)
+		(end -2.5 32.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffffac7a-e83a-4fb7-89c9-e507a3ec6c21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 26.25 10.15 0)
+		(layer "F.Fab")
+		(uuid "e44c80b0-e2ce-4b75-a07d-0d5250154591")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.175 2.175)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b34f09a1-0656-4201-8aa5-44e55af8eb1a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 20.3)
+		(size 2.175 2.175)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fe25846-0e2b-44c3-aa7c-458e5b5545c9")
+	)
+	(pad "3" thru_hole circle
+		(at 52.5 20.3)
+		(size 2.175 2.175)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3aa21886-7e1f-41b7-9fbf-a9ff7c381c73")
+	)
+	(pad "4" thru_hole circle
+		(at 52.5 0)
+		(size 2.175 2.175)
+		(drill 1.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e4b8346-d6fb-4a57-83ea-5a1138652f2f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_INFRASTRUCTURE}/libraries/3dmodels/C4AQIEW6100A3BJ.stp"
+		(offset
+			(xyz -2.900000052 12.60000019 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
