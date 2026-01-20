@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "191c99b0-b7e9-4e50-9650-4c449c296025")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 92.964 34.036)
+		(size 30.48 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 204 1.0000)
+		)
+		(uuid "42c2885b-6602-4edc-b7a4-797b989e1ead")
+		(property "Sheetname" "Shunt current sensing"
+			(at 92.964 33.3244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shunt_current_sensing.kicad_sch"
+			(at 92.964 57.4806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KICAD_blocks"
+				(path "/191c99b0-b7e9-4e50-9650-4c449c296025"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.306 34.29)
+		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 254 255 145 1.0000)
+		)
+		(uuid "51ffc905-d8ea-46cf-b8aa-7b2eb6a6b2b2")
+		(property "Sheetname" "Buck converter up to 60 V to 12 V or 24 V"
+			(at 35.306 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_converter_26to12.kicad_sch"
+			(at 35.306 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KICAD_blocks"
+				(path "/191c99b0-b7e9-4e50-9650-4c449c296025"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
